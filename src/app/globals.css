@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap'); */
+@font-face {
+  font-family: "Gill sans mt";
+  src: url("/fonts/gill.ttf") format('truetype');
+  font-weight:normal;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  scroll-behavior: smooth;
+  background-color: #FFF8F2;
+}
+
+/* .new {
+  background-image: url("../../public/thisimg.svg");
+
+} */
+
+.bgHold {
+  width: 341px;
+  height: 304px;
+  position: absolute;
+  left: -3vw;
+  top: -5.4vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.crouselF,
+.crouselT {
+  background: linear-gradient(90deg, #FFF8F2 62.93%, #FFF8F2 62.93%, rgba(217, 217, 217, 0.00) 1100.97%);
+}
+
+.crouselF {
+  position: absolute;
+  left: -38.2vw;
+
+}
+
+.crouselS {
+  position: relative;
+
+}
+
+.crouselT {
+  position: absolute;
+  right: -38.2vw;
+
+}
+
+@media (max-width:639px) {
+  .crouselF {
+    position: absolute;
+    left: -24.33vw;
+
+  }
+
+  .crouselT {
+    position: absolute;
+    right: -24.33vw;
+
+  }
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.slick-slide.slick-center img
+{
+  transform: scale(1.2) !important;
+  margin-left: -0rem !important;
+  margin-right: 0!important;
+  transition: all 0.4s ease-in-out;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.slick-slide img{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transform: scale(0.8) !important;
+  transition: all 0.4s ease-in-out;
+}
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+@font-face {
+  font-family: "Gilda Display";
+  src: url("/fonts/GildaDisplay-Regular.ttf") format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
