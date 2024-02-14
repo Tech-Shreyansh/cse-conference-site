@@ -13,8 +13,8 @@ function Header(props) {
   return (
     <>
       <div className='w-[100%] h-[100%] flex justify-around items-center'>
-        <div className='flex w-[100%] gap-5 justify-center items-center  py-3'>
-          <Image src={logo} className='w-[180px]' alt="logo" />
+        <div className='flex w-[100%] md:flex-row gap-3 flex-col md:gap-5 justify-center items-center  py-3'>
+          <Image src={logo} className='w-[180px] min-w-[120px] mr-2' alt="logo" />
           <div className='flex flex-col'>
           <div className='text-center text-[22px] leading-[1em]'>
             <strong>
@@ -50,7 +50,7 @@ August 23
             <br/>
           </div>
         </div>
-        <Image src={ieeelogo} className='w-[220px] pb-4' alt="logo" />
+        <Image src={ieeelogo} className='min-w-[140px] w-[220px] pb-4' alt="logo" />
 
         </div>
         {/* <div className='ms-5 align-items-center d-none d-md-flex'>
