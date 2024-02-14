@@ -20,7 +20,7 @@ const SideList = () => {
                     <p class="w-full pb-2 mb-4 ml-2 font-normal text-black border-b-2 border-gray-100 text-xl">
                         Track Details &rarr;
                     </p>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#1">
+                    <a class="flex items-center justify-start p-2 my-4 font-thin text-blue-600  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#1">
                         <span class="text-left">
                             <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -31,7 +31,7 @@ const SideList = () => {
                             Track 1
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#2">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#2">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -42,7 +42,7 @@ const SideList = () => {
                             Track 2
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#3">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#3">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -53,7 +53,7 @@ const SideList = () => {
                             Track 3
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#4">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#4">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -64,7 +64,7 @@ const SideList = () => {
                             Track 4
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#5">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#5">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -75,7 +75,7 @@ const SideList = () => {
                             Track 5
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#6">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#6">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
@@ -86,7 +86,7 @@ const SideList = () => {
                             Track 6
                         </span>
                     </a>
-                    <a class="flex items-center justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#7">
+                    <a class="flex items-center text-blue-600 justify-start p-2 my-4 font-thin  transition-colors duration-200 hover:text-gray-800  hover:bg-gray-100 dark:hover:text-white dark:hover:bg-gray-600" href="#7">
                         <span class="text-left">
                         <svg width="20" height="20" fill="currentColor" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#5e72e4" d="M1070 1178l306-564h-654l-306 564h654zm722-282q0 182-71 348t-191 286-286 191-348 71-348-71-286-191-191-286-71-348 71-348 191-286 286-191 348-71 348 71 286 191 191 286 71 348z">
