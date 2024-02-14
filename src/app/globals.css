@@ -7,3 +7,15 @@
     text-wrap: balance;
   }
 }
+ul {
+  list-style-type: none; /* Remove default bullet points */
+}
+
+li::before {
+  content: "\2022"; /* Unicode for bullet point */
+  color: black; /* Set color to black */
+  font-weight: bold; /* Make the bullet point bold */
+  display: inline-block;
+  width: 1em; /* Adjust the width of the bullet point */
+  margin-left: -1em; /* Position the bullet point properly */
+}
