@@ -19,7 +19,7 @@ function Navigationbar(props) {
             <Link href='/' className={props.active === 'home' ? 'p-3 activeLink active d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Home</Link>
             <Link href='/about' className={props.active === 'about' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>About</Link>
             <Link href='/committee' className={props.active === 'committee' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Committee</Link>
-            <Link href='/call-for-paper' className={props.active === 'call' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Call for Paper</Link>
+            <Link href='/call' className={props.active === 'call' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Call for Paper</Link>
             <Link href='/dates' className={props.active==='dates'?'p-3 active activeLink d-flex align-items-center':'p-3 inactiveLink inactive d-flex align-items-center'}>Important Dates</Link>
             <Link href='/registration' className={props.active === 'registration' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Registration</Link>
             {/* <Link href='/dates' className={props.active === 'dates' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Important Dates</Link> */}

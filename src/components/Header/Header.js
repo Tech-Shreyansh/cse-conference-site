@@ -14,7 +14,7 @@ function Header(props) {
     <>
       <div className='w-[100%] h-[100%] flex justify-around items-center'>
         <div className='flex w-[100%] md:flex-row flex-col md:gap-5 xl:gap-[4rem] sm:gap-3 justify-center items-center  py-3'>
-          <Image src={logo} className='w-[180px] min-w-[120px] mx-2' alt="logo" />
+          <Image src={logo} className='w-[180px] min-w-[120px] x-2' alt="logo" />
           <div className='flex flex-col'>
           <div className='text-center text-[22px] leading-[1em]'>
             <strong>
