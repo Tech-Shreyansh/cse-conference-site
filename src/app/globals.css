@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+ul {
+  list-style-type: none; /* Remove default bullet points */
+}
+
+li::before {
+  content: "\2022"; /* Unicode for bullet point */
+  color: black; /* Set color to black */
+  font-weight: bold; /* Make the bullet point bold */
+  display: inline-block;
+  width: 1em; /* Adjust the width of the bullet point */
+  margin-left: -1em; /* Position the bullet point properly */
+}
+/* Footer */
+
+
+
+#footer{
+  background-image: url('../../public/footer.svg');
+  background-size: cover;
+  margin-top: 0 !important;
+  min-height: 150px;
+  background-repeat: no-repeat;
+}
+
+.navlinks-top:hover, navlinks-top:active{
+color:rgb(218, 218, 218) !important;
+}
+
+.plain{
+  height: 100px;
+}
+
+.navlinks-top{
+  color: white !important;
+}
+
+.si {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+.si:hover {
+  color: #3f95ea;
+}
+
+
+
+.silogo {
+  height: 1.1rem;
+  margin-left: 0.6rem;
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+
+  .si-text{
+    font-size: 12px;
+  }
+
+  
+
+
+.foottext{
+  font-size: 14px;
+}
+
+  .silogo {
+      height: 1rem;
+  }
+
+  
+}
+
+@media only screen and (max-width:360px) {
+
+  .si-text{
+    font-size: 10px;
+}
+
+
+.foottext{
+  font-size: 12px;
+}
+
+  .silogo {
+      height: 1rem;
+  }
+}
+
+@media only screen and (max-width:576px) {
+
+  #footer{
+    background-color: #1F1F1F;
+  }
+
+
+.foothandle{
+min-height: calc(100vh - 150px);
+}
+  
+  .target::before {
+    content: "";
+    display: block;
+    height: 320px; 
+    margin: -300px 0 0; 
+  }
+
+}
+
+
+
+
+
+
