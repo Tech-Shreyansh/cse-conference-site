@@ -184,8 +184,8 @@ const Call = () => {
     ];
 
     return (
-        <div className="flex flex-col md:flex-row">
-    <div className="md:w-[40%] bg-gray-100 p-6 rounded-lg">
+        <div className="flex h-fit md:h-[50rem] mb-[2rem] flex-col md:flex-row">
+    <div className="md:max-w-[30%] bg-gray-100 p-6 rounded-lg">
                 <h1 className="text-blue-800 text-4xl mb-3">Call for Paper</h1>
                 <nav>
                     <ul className="space-y-2 list-none">
@@ -203,7 +203,7 @@ const Call = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="md:w-[60%] p-6 rounded-lg">
+            <div className="px-10 p-6 rounded-lg">
                 {selectedTrackIndex !== null && (
                     <>
                         <h1 className="text-blue-800 text-4xl mb-3">{trackDetails[selectedTrackIndex].trackName}</h1>

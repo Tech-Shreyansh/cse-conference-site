@@ -1,15 +1,96 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import { useState } from "react";
+import { Link } from 'react-scroll'
 const Committee = () => {
+    const sections = [
+        {
+            title: "Patrons and Chairs",
+            items: [
+                // Add patrons and chairs here...
+                "Patron 1",
+                "Patron 2",
+                "Chair 1",
+                "Chair 2"
+            ]
+        },
+        {
+            title: "Conference Secretaries",
+            items: [
+                // Add conference secretaries here...
+                "Secretary 1",
+                "Secretary 2",
+                "Secretary 3"
+            ]
+        },
+        {
+            title: "Advisory Committee",
+            items: [
+                // Add advisory committee members here...
+                "Advisor 1",
+                "Advisor 2",
+                "Advisor 3"
+            ]
+        },
+        {
+            title: "Organising Committee",
+            items: [
+                // Add organising committee members here...
+                "Organiser 1",
+                "Organiser 2",
+                "Organiser 3"
+            ]
+        },
+        {
+            title: "Technical Program Committee",
+            items: [
+                // Add technical program committee members here...
+                "Member 1",
+                "Member 2",
+                "Member 3"
+            ]
+        },
+        {
+            title:'Sub Committees'
+        }
+    ];
+
+    const [selectedSectionIndex, setSelectedSectionIndex] = useState(0);
+
+    const handleSectionSelection = (index) => {
+        setSelectedSectionIndex(index);
+    };
+
         return (
-            <div id="theme" className="target">
+            <div className="flex flex-col md:flex-row">
+            <div className="md:w-[34%] md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
+                <h1 className="text-blue-800 text-3xl mb-3">Conference Committee</h1>
+                <nav>
+                    <ul className="space-y-2 list-none">
+                        {sections.map((section, index) => (
+    <Link className='cursor-pointer' to={index} spy={true} smooth={true} offset={0} duration={200}>
+    <li
+                                key={index}
+                                className={`cursor-pointer px-4 py-2 rounded-md transition duration-300 ease-in-out ${
+                                    selectedSectionIndex === index ? "bg-blue-200" : ""
+                                }`}
+                                onClick={() => handleSectionSelection(index)}
+                            >
+                                {section.title}
+                            </li>
+                            </Link>
+                        ))}
+                    </ul>
+                </nav>
+            </div>
+            <div id="" className="">
                 <div className="container" >
 <h1 className="mb-3 text-blue-800 text-4xl ">
-           Conference Committee<span className=" text-[#000]"> &rarr;</span>
+           <span className=" text-[#000]"></span>
           </h1>
 
 
-                    <Table borderless className="mb-5 borderbtm">
+                    <Table id='0' borderless className="mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th className="noborder">Chief Patron</th>
@@ -314,7 +395,7 @@ const Committee = () => {
                         </tbody>
                     </Table> */}
 
-                    <Table borderless className="mb-5 borderbtm">
+                    <Table id='1' borderless className="mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th className="noborder">Conference Secretaries</th>
@@ -376,7 +457,7 @@ const Committee = () => {
 
 
                     {/* honorary */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='2' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Advisory Committee</th>
@@ -616,7 +697,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Organising Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='3' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Organizing Committee</th>
@@ -717,7 +798,7 @@ const Committee = () => {
                     </Table>
 
                     {/* honorary tech*/}
-                    <Table borderless className="mb-5 borderbtm">
+                    <Table id='4' borderless className="mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Technical Program Committee</th>
@@ -1077,7 +1158,7 @@ const Committee = () => {
                         </tbody>
                     </Table>
 
-                    <h1 className="mb-3 green-heading">Sub-Committees </h1>
+                    <h1  id='5' className="mb-3 green-heading">Sub-Committees </h1>
 
                     {/* Registration Committee */}
                     <Table borderless className="mb-5 borderbtm" responsive="md">
@@ -1656,6 +1737,7 @@ const Committee = () => {
                     </Table> */}
 
                 </div>
+            </div>
             </div>
         );
     }
