@@ -5,8 +5,10 @@ const Call = () => {
         setSelectedTrack(trackDetails[0]);
     }, []);
 
+    const [selectedTrackIndex, setSelectedTrackIndex] = useState(0);
+
     const handleTrackSelection = (index) => {
-        setSelectedTrack(trackDetails[index]);
+        setSelectedTrackIndex(index);
     };
     const trackDetails = [
         {
@@ -183,50 +185,39 @@ const Call = () => {
 
     return (
         <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/4 bg-gray-100 p-6 rounded-lg">
-            <h1 className="text-blue-800 text-4xl mb-3">Conference Tracks</h1>
-            <nav>
-                <ul className="space-y-2 list-none">
-                    {trackDetails.map((track, index) => (
-                        <li
-                            key={index}
-                            className={`cursor-pointer px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-blue-200 ${selectedTrack===track?'bg-blue-200':''}`}
-                            onClick={() => handleTrackSelection(index)}
-                        >
-                            {track.trackName}
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-        </div>
-        <div className="md:w-3/4 p-6 rounded-lg">
-            {selectedTrack && (
-                <>
-                    <h1 className="text-blue-800 text-4xl mb-3">{selectedTrack.trackName}</h1>
-                    <div>
-                        <h2 className="font-bold text-2xl mb-3">Track Details</h2>
-                        <ul className="list-disc list-inside">
-                            {selectedTrack.topics.map((topic, index) => (
-                                <li key={index}>{topic}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </>
-            )}
-        </div>
-    </div>
-    );
-};
-
-const TrackDetails = ({ trackName, topics }) => {
-    return (
-        <div>
-            <h2 className="font-bold text-2xl mb-3">{trackName}</h2>
-            <ul className="list-disc list-inside">
-                {topics.map((topic, index) => (
-                    <li key={index}>{topic}</li>
-                ))}
-            </ul>
+    <div className="md:w-[40%] bg-gray-100 p-6 rounded-lg">
+                <h1 className="text-blue-800 text-4xl mb-3">Call for Paper</h1>
+                <nav>
+                    <ul className="space-y-2 list-none">
+                        {trackDetails.map((track, index) => (
+                            <li
+                                key={index}
+                                className={`cursor-pointer px-4 py-2 rounded-md transition duration-300 ease-in-out ${
+                                    selectedTrackIndex === index ? "bg-blue-200" : ""
+                                }`}
+                                onClick={() => handleTrackSelection(index)}
+                            >
+                                {track.trackName}
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+            </div>
+            <div className="md:w-[60%] p-6 rounded-lg">
+                {selectedTrackIndex !== null && (
+                    <>
+                        <h1 className="text-blue-800 text-4xl mb-3">{trackDetails[selectedTrackIndex].trackName}</h1>
+                        <div>
+                            <h2 className="font-bold text-2xl mb-3">Track Details</h2>
+                            <ul className="list-disc list-inside">
+                                {trackDetails[selectedTrackIndex].topics.map((topic, index) => (
+                                    <li key={index}>{topic}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    </>
+                )}
+            </div>
         </div>
     );
 };
