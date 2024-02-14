@@ -1,5 +1,7 @@
 "use client";
 import React from 'react'
+import Theme from "../../components/theme.jsx"
+import Footer from "../../components/footer.jsx"
 
 const page = () => {
   return (
@@ -47,7 +49,7 @@ const page = () => {
           <h1 className="mb-3 text-blue-800 text-4xl ">
            Date and Venue of the Conference<span className=" text-[#000]"> &rarr;</span>
           </h1>
-          <p className="text-lg text-gray-700 text-center">
+          <p className="text-lg text-gray-700 ">
             The conference organized by Department of Computer Science &
             Engineering, will be held offline at AKGEC, Ghaziabad, Uttar
             Pradesh, India on 23-24 August 2024 in collaboration with IEEE
@@ -62,7 +64,7 @@ const page = () => {
       <div id="theme" className="mt-5">
         <div className="container mx-auto mb-5">
           <h1 className="mb-3 text-blue-800 text-4xl "> Conference Theme <span className=" text-[#000]"> &rarr;</span></h1>
-          <p className="text-lg text-gray-700 mb-4 text-center">
+          <p className="text-lg text-gray-700 mb-4 ">
             The international conference on Advanced Computing and Emerging
             Technologies (ACET-2024) will offer themes in the engineering
             aspects of renewable energy and computing. The main aim of this
@@ -72,32 +74,32 @@ const page = () => {
             Artificial intelligence and Embedded Systems. 
           </p>
           <div className="text-2xl text-[#000] mb-4 "> The focus area and tracks of the conference would be:</div>
-          <ul className="text-lg text-gray-700  pl-6">
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 1:</span> Advances in Machine
+          <ul className=" text-lg text-gray-700  pl-6">
+            <li className=" flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 1:&nbsp;</span> Advances in Machine
               Learning and Deep Learning
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 2:</span> Advances in Data
+            <li className=" flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 2:&nbsp;</span> Advances in Data
               Science
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 3:</span> Applications of
+            <li className=" flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 3:&nbsp;</span> Applications of
               Artificial Intelligence in Interdisciplinary areas
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 4:</span> High Performance
+            <li className=" flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 4:&nbsp;</span> High Performance
               Computing
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 5:</span> Advances in
+            <li className="  flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 5:&nbsp;</span> Advances in
               Communication and Networks
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 6:</span> Advanced Algorithms
+            <li className="  flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 6:&nbsp;</span> Advanced Algorithms
             </li>
-            <li className=" mt-2">
-              <span className="font-[500] text-2xl text-[#000]">Track 7:</span> Teaching & Learning
+            <li className="  flex items-center mt-2">
+              <span className="font-[500] text-2xl text-[#000]">Track 7:&nbsp;</span> Teaching & Learning
               Systems
             </li>
           </ul>
@@ -105,6 +107,8 @@ const page = () => {
       </div>
     </div>
     
+   
+    <Footer/>
 
 
  
