@@ -8,10 +8,10 @@ const page = () => {
     return (
         
         <div>
-            <Header active="dates" />
+            <Header active="registration" />
             <div id="call" className="target mb-5 foothandle">
                 <div className="container" >
-                <h1 className="text-blue-800 text-4xl mb-4">Important Dates</h1>
+                <h1 className="text-blue-800 text-4xl mb-4">Registration Fees</h1>
                 <Table className="borderbtm">
                 <tbody>
     <tr>
