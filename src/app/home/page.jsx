@@ -106,7 +106,7 @@ const page = () => {
       </div>
     </div> 
     
-   <Theme/>
+  
     <Footer/>
 
 
