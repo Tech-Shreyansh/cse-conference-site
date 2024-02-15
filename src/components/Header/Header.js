@@ -14,34 +14,34 @@ function Header(props) {
     <>
       <div className='w-[100%] h-[100%] flex justify-around items-center'>
         <div className='flex w-[100%] md:flex-row flex-col md:gap-5 xl:gap-[4rem] sm:gap-3 justify-center items-center  py-3'>
-          <Image src={logo} className='w-[11.25rem] min-w-[7.5rem] x-2' alt="logo" />
+          <Image src={logo} className='w-[11.25rem] md:flex hidden min-w-[7.5rem] x-2' alt="logo" />
           <div className='flex flex-col'>
-          <div className='text-center text-[1.375rem] leading-[1em]'>
+          <div className='text-center text-[1rem] md:text-[1.375rem] md:leading-[1em] leading-[1.2em]'>
             <strong>
               1
               <sup>ST</sup>
-              INTERNATIONAL CONFERENCE
-              <br/>
+              INTERNATIONAL CONFERENCE{" "}
+              <br className='hidden md:flex'/>
               on
               <br/>
               ADVANCED COMPUTING & EMERGING TECHNOLOGIES (ACET)
             </strong>
             <br/>
           </div>
-          <div className='text-center text-[1.125rem] leading-[1.3em] pt-1'>
+          <div className='text-center text-[0.8rem] md:text-[1.125rem] leading-[1.3em] pt-1'>
             <strong className='text-blue-800'>
 August 23
 <sup>rd</sup>
 -24
 <sup>th</sup>
-, 2024
+, 2024{" "}
             </strong>
-            <br/>
+            <br className='hidden md:flex'/>
             <strong>
               Organised by
             </strong>
 </div>
-<div className='text-center text-[1.375rem]'>
+<div className='text-center text-[1rem] leading-[1.2em] md:leading-normal md:text-[1.375rem]'>
            <strong>
             Department of Computer Science & Engineering
             <br/>
@@ -50,7 +50,7 @@ August 23
             <br/>
           </div>
         </div>
-        <Image src={ieeelogo} className='min-w-[8.625rem] w-[13.75rem] pb-4' alt="logo" />
+        <Image src={ieeelogo} className='min-w-[8.625rem] md:flex hidden w-[13.75rem] pb-4' alt="logo" />
 
         </div>
         {/* <div className='ms-5 align-items-center d-none d-md-flex'>
