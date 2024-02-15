@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'cse-conference',
+  title: 'CSE Conference 2024',
   description: '',
 }
 
