@@ -6,49 +6,19 @@ const Committee = () => {
     const sections = [
         {
             title: "Patrons and Chairs",
-            items: [
-                // Add patrons and chairs here...
-                "Patron 1",
-                "Patron 2",
-                "Chair 1",
-                "Chair 2"
-            ]
         },
         {
             title: "Conference Secretaries",
-            items: [
-                // Add conference secretaries here...
-                "Secretary 1",
-                "Secretary 2",
-                "Secretary 3"
-            ]
         },
         {
             title: "Advisory Committee",
-            items: [
-                // Add advisory committee members here...
-                "Advisor 1",
-                "Advisor 2",
-                "Advisor 3"
-            ]
+       
         },
         {
             title: "Organising Committee",
-            items: [
-                // Add organising committee members here...
-                "Organiser 1",
-                "Organiser 2",
-                "Organiser 3"
-            ]
         },
         {
             title: "Technical Program Committee",
-            items: [
-                // Add technical program committee members here...
-                "Member 1",
-                "Member 2",
-                "Member 3"
-            ]
         },
         {
             title:'Sub Committees'
@@ -1158,7 +1128,7 @@ const Committee = () => {
                         </tbody>
                     </Table>
 
-                    <h1  id='5' className="mb-3 green-heading">Sub-Committees </h1>
+                    <h1 className="text-blue-800 text-2xl mb-4">Sub-Committees</h1>
 
                     {/* Registration Committee */}
                     <Table borderless className="mb-5 borderbtm" responsive="md">
