@@ -10,7 +10,7 @@ const page = () => {
             <div id="call" className="target mb-5 foothandle">
                 <div className="container" >
                 <h1 className="text-blue-800 text-4xl mb-4">Accomodation</h1>
-                    <p>Participants will make their own arrangements for travel, boarding, lodging etc. However, limited accommodation facility may be provided to the participants in hostels and guest rooms of the institute on special request. For lady participants’ accommodation shall be arranged in the Girls hostels of the institute, on request. For guests, the accommodation shall be arranged by our Institute.
+                    <p className="text-[1.125rem]">Participants will make their own arrangements for travel, boarding, lodging etc. However, limited accommodation facility may be provided to the participants in hostels and guest rooms of the institute on special request. For lady participants’ accommodation shall be arranged in the Girls hostels of the institute, on request. For guests, the accommodation shall be arranged by our Institute.
                     </p>
                 </div>
             </div>

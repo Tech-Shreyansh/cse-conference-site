@@ -10,7 +10,7 @@ const page = () => {
             <div id="call" className="target mb-5 foothandle">
                 <div className="container" >
                 <h1 className="text-blue-800 text-4xl mb-4">Travel Grant</h1>
-                <b>Travel grant will be provided to IEEE students on first come first serve basis(as per availability of grant).
+                <b className="text-lg">Travel grant will be provided to IEEE students on first come first serve basis(as per availability of grant).
                 </b></div>
             </div>
         </div>
