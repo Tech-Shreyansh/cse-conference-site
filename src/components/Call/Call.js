@@ -197,7 +197,7 @@ const Call = () => {
                                 }`}
                                 onClick={() => handleTrackSelection(index)}
                             >
-                                {track.trackName}
+                                <b>Track-{index+1}: </b>{track.trackName}
                             </li>
                         ))}
                     </ul>
@@ -208,7 +208,7 @@ const Call = () => {
                     <>
                         <h1 className="text-blue-800 text-4xl mb-3">{trackDetails[selectedTrackIndex].trackName}</h1>
                         <div>
-                            <h2 className="font-bold text-2xl mb-3">Track Details</h2>
+                            <h2 className="font-bold text-2xl mb-3">Track {selectedTrackIndex+1} Details:</h2>
                             <ul className="list-disc list-inside">
                                 {trackDetails[selectedTrackIndex].topics.map((topic, index) => (
                                     <li key={index}>{topic}</li>

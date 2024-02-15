@@ -66,7 +66,7 @@ const Committee = () => {
   
         return (
             <div className="flex flex-col md:flex-row">
-            <div className="md:w-[34%] sticky top-[1%] left-0 md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
+            <div className="md:w-[34%] md:sticky top-[1%] left-0 md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
                 <h1 className="text-blue-800 text-3xl mb-3">Conference Committee</h1>
                 <nav>
                     <ul className="space-y-2 list-none">
