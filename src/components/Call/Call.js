@@ -192,7 +192,7 @@ const Call = () => {
                         {trackDetails.map((track, index) => (
                             <li
                                 key={index}
-                                className={`cursor-pointer px-4 py-2 rounded-md transition duration-300 ease-in-out ${
+                                className={`cursor-pointer my-1 px-4 py-2 rounded-md transition hover:bg-blue-200 duration-300 ease-in-out ${
                                     selectedTrackIndex === index ? "bg-blue-200" : ""
                                 }`}
                                 onClick={() => handleTrackSelection(index)}

@@ -71,7 +71,7 @@ const Committee = () => {
     <Link className='cursor-pointer' to={index} spy={true} smooth={true} offset={0} duration={200}>
     <li
                                 key={index}
-                                className={`cursor-pointer px-4 py-2 rounded-md transition duration-300 ease-in-out ${
+                                className={`cursor-pointer my-1 px-4 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out ${
                                     selectedSectionIndex === index ? "bg-blue-200" : ""
                                 }`}
                                 onClick={() => handleSectionSelection(index)}
