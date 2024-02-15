@@ -1,6 +1,6 @@
 import React from 'react'
 import "../app/globals.css"
-
+import "bootstrap/dist/css/bootstrap.min.css"; 
 const Footer = () => {
   return (
     <div id="footer"  className="absolute w-full mt-[30px]  d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
