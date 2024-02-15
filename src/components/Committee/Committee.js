@@ -2,6 +2,7 @@ import React from "react";
 import { Table } from "react-bootstrap";
 import { useState } from "react";
 import { Link } from 'react-scroll'
+import Image from "next/image";
 const Committee = () => {
     const sections = [
         {
@@ -59,6 +60,8 @@ const Committee = () => {
     ];
 
     const [selectedSectionIndex, setSelectedSectionIndex] = useState(0);
+    const [isCommitteeOpen, setIsCommitteeOpen] = useState(true);
+    const [isSubCommitteeOpen, setIsSubCommitteeOpen] = useState(true);
 
     const handleSectionSelection = (index) => {
         setSelectedSectionIndex(index);
@@ -67,26 +70,30 @@ const Committee = () => {
     return (
         <div className="flex flex-col md:flex-row">
             <div className="md:w-[34%] md:sticky top-[1%] left-0 md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
-                <h1 className="text-blue-800 text-xl md:text-3xl mb-3">Conference Committee</h1>
+            <div className="flex items-center justify-between w-4/5 md:w-full cursor-pointer" onClick={()=>{setIsCommitteeOpen(!isCommitteeOpen)}}>
+                <h2 className="text-blue-800 text-lg md:text-2xl">Conference Committee</h2>{isCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
+            </div>
                 <nav>
                     <ul className="space-y-2 list-none">
-                        {sections.map((section, index) => (
+                        {isCommitteeOpen && sections.map((section, index) => (
                             <Link className='cursor-pointer' to={index} spy={true} smooth={true} offset={0} duration={200}>
                                 <li
                                     key={index}
-                                    className={`cursor-pointer my-1 px-4 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out`}
+                                    className={`text-sm md:text-base cursor-pointer my-1 px-4 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out`}
                                     onClick={() => handleSectionSelection(index)}
                                 >
                                     {section.title}
                                 </li>
                             </Link>
                         ))}
-                        <h1 className="text-blue-800 text-xl md:text-3xl mb-2 mt-3">Sub Committees</h1>
-                        {subSec.map((section, ind) => (
+                        <div className="flex items-center justify-between w-4/5 md:w-full cursor-pointer" onClick={()=>{setIsSubCommitteeOpen(!isSubCommitteeOpen)}}>
+                            <h2 className="text-blue-800 text-lg md:text-2xl mb-2 mt-3" onClick={()=>{setIsSubCommitteeOpen(!isSubCommitteeOpen)}}>Sub Committees</h2>{isSubCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
+                        </div>
+                        {isSubCommitteeOpen && subSec.map((section, ind) => (
                             <Link className='cursor-pointer' to={ind + 5} spy={true} smooth={true} offset={0} duration={200}>
                                 <li
                                     key={ind + 5}
-                                    className={` cursor-pointer my-1 px-4 py-1 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out `}
+                                    className={`text-sm md:text-base cursor-pointer my-1 px-4 py-1 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out `}
                                     onClick={() => handleSectionSelection(ind)}
                                 >
                                     {section.title}
@@ -104,7 +111,7 @@ const Committee = () => {
                         </h1>
 
 
-                        <Table id='0' borderless className="mb-5 borderbtm">
+                        <Table id='0' borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Chief Patron</th>
@@ -118,7 +125,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">General Chair(s)</th>
@@ -132,7 +139,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Conference Chair </th>
@@ -145,7 +152,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Treasurer</th>
@@ -157,7 +164,7 @@ const Committee = () => {
                                 </tr>
                             </tbody>
                         </Table>
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Technical Chair(s)</th>
@@ -170,7 +177,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Program Chair(s)</th>
@@ -187,7 +194,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Publicity Chair(s)</th>
@@ -204,7 +211,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Workshop Chair(s)</th>
@@ -221,7 +228,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Workshop Co-Chair</th>
@@ -238,7 +245,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Exhibit Chair</th>
@@ -322,7 +329,7 @@ const Committee = () => {
                         </tbody>
                     </Table>
 
-                    <Table borderless className="mb-5 borderbtm">
+                    <Table borderless className="md:mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th className="noborder">Publication Chair </th>
@@ -351,7 +358,7 @@ const Committee = () => {
                         </tbody>
                     </Table> */}
 
-                        {/* <Table borderless className="mb-5 borderbtm">
+                        {/* <Table borderless className="md:mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th className="noborder">Workshop Chair</th>
@@ -381,7 +388,7 @@ const Committee = () => {
                     </Table> */}
 
 
-                        <Table borderless className="mb-5 borderbtm">
+                        <Table borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Local Organizing Chair</th>
@@ -409,7 +416,7 @@ const Committee = () => {
                         </tbody>
                     </Table> */}
 
-                        <Table id='1' borderless className="mb-5 borderbtm">
+                        <Table id='1' borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th className="noborder">Conference Secretaries</th>
@@ -471,7 +478,7 @@ const Committee = () => {
 
 
                         {/* honorary */}
-                        <Table id='2' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='2' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Advisory Committee</th>
@@ -711,7 +718,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Organising Committee */}
-                        <Table id='3' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='3' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Organizing Committee</th>
@@ -812,7 +819,7 @@ const Committee = () => {
                         </Table>
 
                         {/* honorary tech*/}
-                        <Table id='4' borderless className="mb-5 borderbtm">
+                        <Table id='4' borderless className="md:mb-5 borderbtm">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Technical Program Committee</th>
@@ -1175,7 +1182,7 @@ const Committee = () => {
                         <h1 className="text-blue-800 text-2xl mb-4">Sub-Committees</h1>
 
                         {/* Registration Committee */}
-                        <Table id='5' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='5' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Registration Committee</th>
@@ -1209,7 +1216,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Publication Committee */}
-                        <Table id='6' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='6' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Publication Committee</th>
@@ -1238,7 +1245,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Cultural Committee */}
-                        <Table id='7' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='7' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Cultural Committee</th>
@@ -1283,7 +1290,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Transportation, Accommodation & Hospitality Committee  */}
-                        <Table id='8' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='8' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Transportation, Accommodation & Hospitality Committee </th>
@@ -1323,7 +1330,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Reception, Decoration & Stage Management Committee   */}
-                        <Table id='9' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='9' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Reception, Decoration & Stage Management Committee  </th>
@@ -1383,7 +1390,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Technical Sessions Committee */}
-                        <Table id='10' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='10' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Technical Sessions Committee  </th>
@@ -1448,7 +1455,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Finance & Audit Committee */}
-                        <Table id='11' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='11' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Finance & Audit Committee  </th>
@@ -1478,7 +1485,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Food Committee */}
-                        <Table id='12' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='12' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Food Committee  </th>
@@ -1518,7 +1525,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Advertising, Publicity & Sponsorship Committee */}
-                        <Table id='13' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='13' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2">Advertising, Publicity & Sponsorship Committee  </th>
@@ -1548,7 +1555,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Press Publicity & Media Management Committee */}
-                        <Table borderless className="mb-5 borderbtm" responsive="md">
+                        <Table borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2"> Press Publicity & Media Management Committee </th>
@@ -1588,7 +1595,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Videography & Photography Committee  */}
-                        <Table borderless className="mb-5 borderbtm" responsive="md">
+                        <Table borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2"> Videography & Photography Committee  </th>
@@ -1613,7 +1620,7 @@ const Committee = () => {
                         </Table>
 
                         {/* Website Management Committee */}
-                        <Table id='14' borderless className="mb-5 borderbtm" responsive="md">
+                        <Table id='14' borderless className="md:mb-5 borderbtm" responsive="md">
                             <tbody>
                                 <tr>
                                     <th colSpan="2"> Website Management Committee </th>
@@ -1656,7 +1663,7 @@ const Committee = () => {
 
                             </tbody>
                         </Table>
-                        {/* <Table borderless className="mb-5 borderbtm">
+                        {/* <Table borderless className="md:mb-5 borderbtm">
                         <tbody>
                             <tr>
                                 <th>Organizing Committee</th>
