@@ -18,7 +18,7 @@ const Call = () => {
           The focus area and tracks of the conference would be:
         </div>
         <div className="font-[500] text-xl text-[#000] mb-4">
-          <span className="font-[500]  text-2xl text-[#000]">
+          <span className="font-[500]  text-2xl text-[#000] ">
             &rarr;Track 1:
           </span>{" "}
           Advances in Machine Learning and Deep Learning <br />

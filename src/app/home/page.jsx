@@ -104,9 +104,9 @@ const page = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
     
-   
+  
     <Footer/>
 
 

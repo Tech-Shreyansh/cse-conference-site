@@ -11,10 +11,10 @@ const Theme = () => {
          <SideList/>
             <div className=" ml-[18rem]" >
             <Call/>
-              <h1 id='1' className="mb-3 text-blue-600">Track Details :-</h1>
+              <h1 id='1' className="mb-3 mt-4 text-blue-600 text-4xl">Track Details :-</h1>
     
               <h5 className="font-[500]  text-2xl text-[#000] text-center underline">Track 1: Advances in Machine Learning and Deep Learning</h5>
-              <div className="text-lg text-gray-700 ">
+              <div className="text-lg text-gray-700 pl-6 mt-4">
                 <ul>
                   <li>
                   
@@ -83,8 +83,8 @@ const Theme = () => {
                 </ul>
               </div>
     
-              <h5 id='2' className="font-[500]  text-2xl text-[#000] text-center underline">Track 2: Advances in Data Science</h5>
-              <div className="text-lg text-gray-700 ">
+              <h5 id='2' className="font-[500] mt-4  text-2xl text-[#000] text-center underline">Track 2: Advances in Data Science</h5>
+              <div className="text-lg text-gray-700 pl-6 mt-4">
                 <ul>
                   <li>
                     Mathematical, Probabilistic and Statistical Models and Theories
@@ -146,8 +146,8 @@ const Theme = () => {
                 </ul>
               </div>
     
-              <h5 id='3' className="font-[500]  text-2xl text-[#000] text-center underline">Track 3: Applications of Artificial Intelligence in Interdisciplinary areas</h5>
-              <div className="text-lg text-gray-700 ">
+              <h5 id='3' className="font-[500] mt-4  text-2xl text-[#000] text-center underline">Track 3: Applications of Artificial Intelligence in Interdisciplinary areas</h5>
+              <div className="text-lg text-gray-700 pl-6 mt-4">
                 <ul>
                   <li>
                     Applications of AI in Manufacturing Industry
@@ -248,7 +248,7 @@ const Theme = () => {
                 </ul>
               </div>
     
-              <h5 id='4' className="font-[500]  text-2xl text-[#000] text-center underline">Track 4: High Performance Computing</h5>
+              <h5 id='4' className="font-[500] mt-4  text-2xl text-[#000] text-center underline">Track 4: High Performance Computing</h5>
               <div className="text-lg text-gray-700 ">
                 <ul>
                   <li>
@@ -293,8 +293,8 @@ const Theme = () => {
                 </ul>
               </div>
     
-              <h5 id='5' className="font-[500]  text-2xl text-[#000] text-center underline">Track 5: Advances in Communication and Networks</h5>
-              <div className="text-lg text-gray-700 ">
+              <h5 id='5' className="font-[500] mt-4  text-2xl text-[#000] text-center underline">Track 5: Advances in Communication and Networks</h5>
+              <div className="text-lg text-gray-700 pl-6 mt-4 ">
                 <ul>
                   <li>
                     Ad-hoc Networks
@@ -383,9 +383,9 @@ const Theme = () => {
                 </ul>
               </div>
     
-              <h5 id='6' className="font-[500]  text-2xl text-[#000] text-center underline">Track 6: Advanced Algorithms
+              <h5 id='6' className="font-[500] mt-4  text-2xl text-[#000] text-center underline">Track 6: Advanced Algorithms
               </h5>
-              <div className="text-lg text-gray-700 ">
+              <div className="text-lg text-gray-700 pl-6 mt-4">
                 <ul>
                   <li>
                     Approximation Algorithms
@@ -466,9 +466,9 @@ const Theme = () => {
     
     
               <h5 id='7'
-              className="extra-bold-text mt-4">Track 7: Teaching & Learning Systems
+              className="font-[500]  text-2xl text-[#000] text-center underline mt-4">Track 7: Teaching & Learning Systems
               </h5>
-              <div className="text-lg text-gray-700 ">
+              <div className="text-lg text-gray-700 pl-6 mt-4">
                 <ul>
                   <li>
                     Academic Staff/Faculty Development

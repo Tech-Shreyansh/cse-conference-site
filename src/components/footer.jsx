@@ -1,9 +1,9 @@
 import React from 'react'
 import "../app/globals.css"
-
+import "bootstrap/dist/css/bootstrap.min.css"; 
 const Footer = () => {
   return (
-    <div id="footer"  className="d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
+    <div id="footer"  className="absolute w-full mt-[30px]  d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
     {/* <Logo className="mt-5"/> */}
     <img className="mt-5 w-[8rem] bg-white rounded-full" src="akgec.png" />
     <p className="mt-3 mb-5 text-gray-600 text-lg text-center md:text-2xl">Ajay Kumar Garg Engineering College, Ghaziabad</p>
