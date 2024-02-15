@@ -20,9 +20,42 @@ const Committee = () => {
         {
             title: "Technical Program Committee",
         },
+        
+    ];
+    const subSec = [
         {
-            title:'Sub Committees'
-        }
+            title: "Registration Committee",
+        },
+        {
+            title: "Publication Committee",
+        },
+        {
+            title: "Cultural Committee",
+       
+        },
+        {
+            title: "Transportation, Accommodation & Hospitality Committee",
+        },
+        {
+            title: "Reception, Decoration & Stage Management Committee",
+        },
+        {
+            title: "Technical Sessions Committee",
+        },
+        {
+            title: "Finance & Audit Committee",
+        },
+        {
+            title: "Food Committee",
+       
+        },
+        {
+            title: "Advertising, Publicity & Sponsorship Committee",
+        },
+        {
+            title: "Website Management Committee",
+        },
+        
     ];
 
     const [selectedSectionIndex, setSelectedSectionIndex] = useState(0);
@@ -30,10 +63,10 @@ const Committee = () => {
     const handleSectionSelection = (index) => {
         setSelectedSectionIndex(index);
     };
-
+  
         return (
             <div className="flex flex-col md:flex-row">
-            <div className="md:w-[34%] md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
+            <div className="md:w-[34%] sticky top-[1%] left-0 md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
                 <h1 className="text-blue-800 text-3xl mb-3">Conference Committee</h1>
                 <nav>
                     <ul className="space-y-2 list-none">
@@ -41,10 +74,20 @@ const Committee = () => {
     <Link className='cursor-pointer' to={index} spy={true} smooth={true} offset={0} duration={200}>
     <li
                                 key={index}
-                                className={`cursor-pointer my-1 px-4 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out ${
-                                    selectedSectionIndex === index ? "bg-blue-200" : ""
-                                }`}
+                                className={`cursor-pointer my-1 px-4 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out`}
                                 onClick={() => handleSectionSelection(index)}
+                            >
+                                {section.title}
+                            </li>
+                            </Link>
+                        ))}
+                <h1 className="text-blue-800 text-2xl pl-5 mb-2 mt-3">Sub Committees</h1>
+                {subSec.map((section, ind) => (
+    <Link className='cursor-pointer' to={ind+5} spy={true} smooth={true} offset={0} duration={200}>
+    <li
+                                key={ind+5}
+                                className={` cursor-pointer text-[0.8rem] my-1 px-4 pl-8 py-1 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out `}
+                                onClick={() => handleSectionSelection(ind)}
                             >
                                 {section.title}
                             </li>
@@ -53,7 +96,8 @@ const Committee = () => {
                     </ul>
                 </nav>
             </div>
-            <div id="" className="">
+            <div className="">
+            <div className="w-[100%] top-0">
                 <div className="container" >
 <h1 className="mb-3 text-blue-800 text-4xl ">
            <span className=" text-[#000]"></span>
@@ -1131,7 +1175,7 @@ const Committee = () => {
                     <h1 className="text-blue-800 text-2xl mb-4">Sub-Committees</h1>
 
                     {/* Registration Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='5' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Registration Committee</th>
@@ -1165,7 +1209,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Publication Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='6' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Publication Committee</th>
@@ -1194,7 +1238,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Cultural Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='7' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Cultural Committee</th>
@@ -1239,7 +1283,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Transportation, Accommodation & Hospitality Committee  */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='8' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Transportation, Accommodation & Hospitality Committee </th>
@@ -1279,7 +1323,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Reception, Decoration & Stage Management Committee   */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='9' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Reception, Decoration & Stage Management Committee  </th>
@@ -1339,7 +1383,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Technical Sessions Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='10' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Technical Sessions Committee  </th>
@@ -1404,7 +1448,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Finance & Audit Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='11' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Finance & Audit Committee  </th>
@@ -1434,7 +1478,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Food Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='12' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Food Committee  </th>
@@ -1474,7 +1518,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Advertising, Publicity & Sponsorship Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='13' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2">Advertising, Publicity & Sponsorship Committee  </th>
@@ -1569,7 +1613,7 @@ const Committee = () => {
                     </Table>
 
                     {/* Website Management Committee */}
-                    <Table borderless className="mb-5 borderbtm" responsive="md">
+                    <Table id='14' borderless className="mb-5 borderbtm" responsive="md">
                         <tbody>
                             <tr>
                                 <th colSpan="2"> Website Management Committee </th>
@@ -1707,6 +1751,7 @@ const Committee = () => {
                     </Table> */}
 
                 </div>
+            </div>
             </div>
             </div>
         );
