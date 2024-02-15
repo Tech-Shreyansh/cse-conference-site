@@ -2,13 +2,12 @@
 import React from 'react'
 import Theme from "../../components/theme.jsx"
 import Footer from "../../components/footer.jsx"
-
+import Header from '../../components/Header/Header.js'
 const page = () => {
   return (
     <>
-     
+     <Header active='home'/>
     <div className="relative flex flex-col overflow-hidden bg-white ">
-    
       <div className="container relative mx-auto flex flex-col space-y-16 px-4 py-10 text-center lg:flex-row lg:space-y-0 lg:px-8 lg:py-32 lg:text-left xl:max-w-7xl">
         <div className="">
           <div className="mt-10 flex max-w-max items-center space-x-2 rounded-full border p-2">

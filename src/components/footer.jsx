@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div id="footer"  className="d-flex flex-column align-items-center justify-content-center pb-0 mb-0" >
     {/* <Logo className="mt-5"/> */}
-    <img className="mt-5" src="akglogo.png" />
-    <p className="mt-3 mb-5 text-gray-600 text-2xl">Ajay Kumar Garg Engineering College, Ghaziabad</p>
+    <img className="mt-5 w-[8rem] bg-white rounded-full" src="akgec.png" />
+    <p className="mt-3 mb-5 text-gray-600 text-lg text-center md:text-2xl">Ajay Kumar Garg Engineering College, Ghaziabad</p>
     <div class="row text-light">
         <div class="col-sm"></div>
     </div>
