@@ -415,7 +415,18 @@ min-height: calc(100vh - 150px);
   }
   }
 
+  @media only screen and (max-width:400px) {
 
+    .heading1{
+font-size:15px ;
+    }
+    .heading1{
+      font-size:24px;
+    }
+    .heading1{
+      font-size:15px;
+    }
+  }
 
 
 
