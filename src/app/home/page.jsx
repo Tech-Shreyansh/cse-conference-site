@@ -11,7 +11,7 @@ const page = () => {
       <div className=" lg:pt-[100px] mb-[50px]  mx-auto flex flex-col space-y-4 px-4 text-center lg:flex-row sm:items-center sm:justify-between sm:space-y-0 lg:px-8 ">
         <div className=" mb-[100px]">
           <div className="mt-10 flex max-w-max items-center space-x-2 rounded-full border p-2">
-            <p className="heading1 text-[1.125rem] font-medium ">
+            <p className="heading1 text-[1.125rem] font-medium self-center">
               INTERNATIONAL{" "}
               <span className=" text-blue-800 "> CONFERENCE ON</span>
               <span className="ml-2 cursor-pointer font-bold">&rarr;</span>
