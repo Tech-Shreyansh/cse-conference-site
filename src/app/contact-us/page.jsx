@@ -1,14 +1,15 @@
 'use client'
+import Theme from "@/src/components/theme";
 import Footer from "@/src/components/footer";
 import Header from "@/src/components/Header/Header.js";
-
 
 const ContactUs = () => {
     return (
         <div>
             <Header active='contact-us' />
-            <div className="px-[5%] md:h-auto mb-28 md:mb-16">
-                <h1 className="mt-3 text-blue-800 text-2xl md:text-4xl mb-4">Contact Us</h1>
+            <div className="target px-[5%] md:h-auto mb-28 md:mb-16">
+            <div className="container" >
+                <h1 className="text-blue-800 text-2xl md:text-4xl mb-4">Contact Us</h1>
                 <p className="md:text-2xl text-lg font-semibold">For conference relatied queries write to us on :-<br />
                 </p>
                 <ul className="text-[15px] sm:text-[18px] pl-0">
@@ -25,7 +26,7 @@ const ContactUs = () => {
                     P.O. Adhyatmik Nagar,
                     Ghaziabad - 201009</p>
             </div>
-
+</div>
             <Footer />
 
         </div>
