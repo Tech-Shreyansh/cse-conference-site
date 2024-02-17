@@ -21,7 +21,7 @@ const Page = () => {
         infiniteLoop={true}
         showStatus={false}
       >
-        <img src="hero.png" className="carousel-img" alt="about-img" />
+        <img src="hero.png" className="carousel-img " alt="about-img" />
         <img src="image2.png" className="carousel-img" alt="about-img" />
 
         <img src="image11.png" className="carousel-img" alt="about-img" />
