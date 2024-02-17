@@ -5,7 +5,6 @@ import Footer from "../../components/footer"
 const page = () => {
     return (
         <div>
-        <div>
             <Header active="travel-grant" />
 
             <div id="call" className="target md:mb-5 foothandle px-[5%]">
