@@ -188,7 +188,7 @@ const Call = () => {
     <div className="md:max-w-[30%] bg-gray-100 p-6 rounded-lg">
                 <h1 className="text-blue-800 text-4xl mb-3">Call for Paper</h1>
                 <nav>
-                    <ul className="space-y-2 list-none">
+                    <ul className="space-y-2 pl-0 list-none">
                         {trackDetails.map((track, index) => (
                             <li
                                 key={index}
