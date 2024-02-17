@@ -7,7 +7,9 @@ const page = () => {
         <div>
         <div>
             <Header active="travel-grant" />
+
             <div id="call" className="target md:mb-5 foothandle px-[5%]">
+            <div id="call" className="target md:mb-5 foothandle">
                 <div className="container" >
                 <h1 className="text-blue-800 sm:text-4xl text-2xl mb-4">Travel Grant</h1>
                 <b className="sm:text-lg text-md">Travel grant will be provided to IEEE students on first come first serve basis(as per availability of grant).
