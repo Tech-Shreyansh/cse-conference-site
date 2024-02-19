@@ -62,7 +62,7 @@ const page = () => {
 
       <div id="theme" className="mt-5 px-[12px]">
         <div className=" mb-5">
-          <h1 className="mb-3 text-blue-800 md:text-4xl text-[25.5px]"> ConferenceTheme <span className=" text-[#000]"> &rarr;</span></h1>
+          <h1 className="mb-3 text-blue-800 md:text-4xl text-[25.5px]"> Conference Theme <span className=" text-[#000]"> &rarr;</span></h1>
           <p className=" text-[15px] md:text-lg text-gray-700 mb-4 ">
             The international conference on Advanced Computing and Emerging
             Technologies (ACET-2024) will offer themes in the engineering
