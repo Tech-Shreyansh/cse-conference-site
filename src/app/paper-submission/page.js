@@ -54,10 +54,10 @@ const page = () => {
                             </h1>
                             <p className="text-sm md:text-base text-gray-700 ">
                                 The 1st International Conference on Advanced Computing & Emerging Technologies (ACET) will be organized by Department of Computer Science & Engineering
-                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24th August, 2024. The aim of the ACET is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <span className='font-semibold'>will be updated soon.</span><br />
-                                Publication - All the accepted and presented papers of ACET will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope
-                                If you encounter problems in submitting, contact at acet@akgec.ac.in.
-                                Acceptance of papers will be communicated to authors by email. Publication - All the accepted and presented papers of ACET will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope. ** Indexing: Scopus
+                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24th August, 2024. The aim of the ACET-2024 is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET-2024 invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <span className='font-semibold'>will be updated soon.</span><br />
+                                Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope
+                                If you encounter problems in submitting, contact at <a href='mailto:acet@akgec.ac.in' className='underline underline-1'>acet@akgec.ac.in</a>.
+                                Acceptance of papers will be communicated to authors by email. Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope. ** Indexing: Scopus
                             </p>
                         </div>
                         <div className="lg:mt-3 px-[12px] mt-[50px] space-y-4">

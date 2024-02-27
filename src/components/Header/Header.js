@@ -11,7 +11,7 @@ function Header(props) {
   const [modalShow, setModalShow] = useState(false);
 
   return (
-    <>
+    <div>
       <div className='w-[100%] h-[100%] flex justify-around items-center'>
         <div className='flex w-[100%] md:flex-row flex-col md:gap-5 xl:gap-[4rem] sm:gap-3 justify-center items-center  py-3'>
           <Image src={logo} className='w-[11.25rem] md:flex hidden min-w-[7.5rem] x-2' alt="logo" />
@@ -36,7 +36,7 @@ function Header(props) {
                 <sup>th</sup>
                 , 2024{" "}
               </strong>
-              <p className='text-center text-blue-500 mb-4 font-extrabold'>[ HYBRID MODE ]</p>
+              <p className='text-center text-blue-500 mb-2 md:mb-4 font-extrabold'>[ HYBRID MODE ]</p>
               <strong className='text-blue-800 md:text-black'>
                 Organised by
               </strong>
@@ -65,7 +65,7 @@ function Header(props) {
         onHide={() => setModalShow(false)}
       /> */}
 
-    </>
+    </div>
   );
 }
 

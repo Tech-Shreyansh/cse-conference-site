@@ -7,7 +7,7 @@ import Link from 'next/link';
 function Navigationbar(props) {
   const [modalShow, setModalShow] = useState(false);
   return (
-    <>
+    <div>
     <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" className='px-3 md:py-0 navbarcolor'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <div className='d-flex d-md-none'>
@@ -34,7 +34,7 @@ function Navigationbar(props) {
         onHide={() => setModalShow(false)}
       /> */}
 
-    </>
+    </div>
   );
 }
 
