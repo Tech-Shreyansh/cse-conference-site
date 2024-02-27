@@ -53,7 +53,7 @@ const page = () => {
                 <h1 className="mb-3 text-blue-800 md:text-4xl text-2xl underline underline-offset-4">
                   Date and Venue of the Conference
                 </h1>
-                <p className=" text-[15px] md:text-lg text-gray-700 ">
+                <p className=" text-sm md:text-base text-gray-700 ">
                   The conference organized by Department of Computer Science &
                   Engineering, will be held offline at AKGEC, Ghaziabad, Uttar
                   Pradesh, India on 23-24 August 2024 in collaboration with IEEE
@@ -67,7 +67,7 @@ const page = () => {
             <div id="theme" className="mt-5 px-[12px]">
               <div className=" mb-5">
                 <h1 className="mb-3 text-blue-800 md:text-4xl text-2xl underline underline-offset-4"> Conference Theme </h1>
-                <p className=" text-[15px] md:text-lg text-gray-700 mb-4 ">
+                <p className=" text-sm md:text-base text-gray-700 mb-4 ">
                   The international conference on Advanced Computing and Emerging
                   Technologies (ACET-2024) will offer themes in the engineering
                   aspects of renewable energy and computing. The main aim of this
@@ -76,33 +76,33 @@ const page = () => {
                   of Green Energy, Computing and security, sustainable development,
                   Artificial intelligence and Embedded Systems.
                 </p>
-                <div className="text-lg sm:text-2xl text-[#000] mb-4 "> The focus area and tracks of the conference would be:</div>
-                <ul className=" text-[15px] sm:text-lg text-gray-700  sm:pl-6">
+                <div className="md:text-xl text-[#000] mb-4 "> The focus area and tracks of the conference would be:</div>
+                <ul className=" text-sm sm:text-base text-gray-700  sm:pl-6">
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 1:&nbsp;</span> Advances in Machine
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 1:&nbsp;</span> Advances in Machine
                     Learning and Deep Learning
                   </li>
                   <li className=" flex   gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 2:&nbsp;</span> Advances in Data
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 2:&nbsp;</span> Advances in Data
                     Science
                   </li>
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 3:&nbsp;</span> Applications of
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 3:&nbsp;</span> Applications of
                     Artificial Intelligence in Interdisciplinary areas
                   </li>
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 4:&nbsp;</span> High Performance
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 4:&nbsp;</span> High Performance
                     Computing
                   </li>
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 5:&nbsp;</span> Advances in
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 5:&nbsp;</span> Advances in
                     Communication and Networks
                   </li>
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 6:&nbsp;</span> Advanced Algorithms
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 6:&nbsp;</span> Advanced Algorithms
                   </li>
                   <li className="flex gap-2 items-center mt-2">
-                    <span className="font-[500] text-lg sm:text-xl md:text-2xl text-[#000] whitespace-nowrap">Track 7:&nbsp;</span> Teaching & Learning
+                    <span className="font-[500] text-lg sm:text-xl text-[#000] whitespace-nowrap">Track 7:&nbsp;</span> Teaching & Learning
                     Systems
                   </li>
                 </ul>
