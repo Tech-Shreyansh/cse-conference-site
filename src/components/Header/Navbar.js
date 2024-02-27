@@ -20,9 +20,8 @@ function Navigationbar(props) {
             <Link href='/about' className={props.active === 'about' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>About</Link>
             <Link href='/committee' className={props.active === 'committee' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Committee</Link>
             <Link href='/call-for-paper' className={props.active === 'call' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Call for Paper</Link>
-            <Link href='/dates' className={props.active==='dates'?'p-3 active activeLink d-flex align-items-center':'p-3 inactiveLink inactive d-flex align-items-center'}>Important Dates</Link>
+            {/* <Link href='/dates' className={props.active==='dates'?'p-3 active activeLink d-flex align-items-center':'p-3 inactiveLink inactive d-flex align-items-center'}>Important Dates</Link> */}
             <Link href='/registration' className={props.active === 'registration' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Registration</Link>
-            {/* <Link href='/dates' className={props.active === 'dates' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Important Dates</Link> */}
             <Link href='/accomodation' className={props.active === 'accomodation' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Accomodation</Link>
             <Link href='/travel-grant' className={props.active === 'travel-grant' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Travel Grant</Link>
             <Link href='/contact-us' className={props.active === 'contact-us' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Contact Us</Link>
