@@ -46,7 +46,8 @@ const page = () => {
             </div>
           </div>
         </div> */}
-        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 my-8'>
+        <Image src={'/banner.png'} width={1600} height={512}  className='md:w-11/12 md:m-2 md:rounded-3xl mx-auto'/>
+        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 md:mt-8'>
           <div className='md:col-span-6'>
             <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
               <div className="">
