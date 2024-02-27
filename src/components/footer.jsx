@@ -9,6 +9,7 @@ const Footer = () => {
     <div class="row text-light">
         <div class="col-sm"></div>
     </div>
+    <p className='md:text-lg text-gray-300 mb-4 md:mb-8 -mt-4 md:-mt-8'>Venue : Department of Computer Science & Engineering, AKGEC</p>
     <div className="hrline"></div>
     <div className='d-flex align-items-center pt-2 pb-2 justify-content-center footer-bottom text-light si-text'>
         DESIGNED &amp; DEVELOPED BY :&nbsp;&nbsp; <img src='silogo.svg'/>&nbsp; <a href="https://silive.in" rel="noreferrer" className="si" target="_blank">SOFTWARE INCUBATOR</a>
