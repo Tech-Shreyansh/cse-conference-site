@@ -36,7 +36,7 @@ function Header(props) {
                 <sup>th</sup>
                 , 2024{" "}
               </strong>
-              <br className='hidden md:flex' />
+              <p className='text-center text-blue-500 mb-4 font-extrabold'>[ HYBRID MODE ]</p>
               <strong className='text-blue-800 md:text-black'>
                 Organised by
               </strong>

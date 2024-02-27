@@ -12,7 +12,7 @@ const page = () => {
     <>
       <Header active='home' />
       <div className="relative flex flex-col overflow-hidden bg-white ">
-        <div className=" lg:pt-[100px] mb-[50px]  mx-auto flex flex-col space-y-4 px-4 text-center lg:flex-row sm:items-center sm:justify-between sm:space-y-0 lg:px-8 ">
+        {/* <div className=" lg:pt-[100px] mb-[50px]  mx-auto flex flex-col space-y-4 px-4 text-center lg:flex-row sm:items-center sm:justify-between sm:space-y-0 lg:px-8 ">
           <div className=" mb-[100px]">
             <div className="mt-10 flex max-w-max items-center space-x-2 rounded-full border p-2">
               <p className="heading1 text-[1.125rem] font-medium self-center">
@@ -45,8 +45,8 @@ const page = () => {
               />
             </div>
           </div>
-        </div>
-        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8'>
+        </div> */}
+        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 my-8'>
           <div className='md:col-span-6'>
             <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
               <div className="">
