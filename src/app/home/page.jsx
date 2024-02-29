@@ -6,6 +6,7 @@ import Header from '../../components/Header/Header.js'
 import ieeelogo from '../../../public/ieee.png'
 import logo from '../../../public/akg.png'
 import Image from 'next/image.js';
+import SideSection from '../../components/SideSection.jsx';
 
 const page = () => {
   return (
@@ -46,14 +47,14 @@ const page = () => {
             </div>
           </div>
         </div> */}
-        <Image src={'/banner.png'} width={1600} height={512}  className='md:w-11/12 md:m-2 md:rounded-3xl mx-auto'/>
         <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 md:mt-8'>
           <div className='md:col-span-6'>
             <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
               <div className="">
-                <h1 className="mb-3 text-blue-800 md:text-4xl text-2xl underline underline-offset-4">
+                <h1 className="text-blue-800 md:text-2xl text-lg">
                   Date and Venue of the Conference
                 </h1>
+                <hr className='border-2 border-blue-800 mb-2' />
                 <p className=" text-sm md:text-base text-gray-700 ">
                   The conference organized by Department of Computer Science &
                   Engineering, will be held offline at AKGEC, Ghaziabad, Uttar
@@ -67,8 +68,9 @@ const page = () => {
             </div>
             <div id="theme" className="mt-5 px-[12px]">
               <div className=" mb-5">
-                <h1 className="mb-3 text-blue-800 md:text-4xl text-2xl underline underline-offset-4"> Conference Theme </h1>
-                <p className=" text-sm md:text-base text-gray-700 mb-4 ">
+                <h1 className="text-blue-800 md:text-2xl text-lg"> Conference Theme </h1>
+                <hr className='border-2 border-blue-800 mb-2' />
+                <p className="text-sm md:text-base text-gray-700 mb-4 ">
                   The international conference on Advanced Computing and Emerging
                   Technologies (ACET-2024) will offer themes in the engineering
                   aspects of renewable energy and computing. The main aim of this
@@ -111,30 +113,7 @@ const page = () => {
             </div>
           </div>
           <div className='md:col-span-4 md:w-3/4'>
-            <div className='my-2'>
-              <h1 className="mb-3 text-blue-800 md:text-2xl text-lg underline underline-offset-4">
-                Publishing & Indexing
-              </h1>
-              <p>Accepted and presented papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements</p>
-              <Image src={ieeelogo} className='w-1/2 mx-auto' alt="IEEE_logo" />
-            </div>
-            <hr />
-            <div className='md:w-1/2 mx-auto my-4'>
-              <p className='md:text-lg text-center font-semibold'>In Association with</p>
-              <Image src={logo} className='w-1/2 md:w-4/5 mx-auto' alt="logo" />
-            </div>
-            <hr />
-            <div className='my-2 mb-4'>
-              <h1 className="mb-3 text-blue-800 md:text-2xl text-lg underline underline-offset-4">
-                Important Dates
-              </h1>
-              <ul class="text-sm md:text-lg space-y-1">
-                <li><span class="font-bold">Full Paper Submission</span> : <p>July 15, 2024</p></li>
-                <li><span class="font-bold">Acceptance Notification due</span> : <p>July 25, 2024</p></li>
-                <li><span class="font-bold">Registration due</span> : <p>August 05, 2024</p></li>
-                <li><span class="font-bold">Conference dates</span> : <p>August 23-24, 2024</p></li>
-              </ul>
-            </div>
+            <SideSection />
           </div>
         </div>
       </div>

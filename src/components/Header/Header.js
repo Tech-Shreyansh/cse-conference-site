@@ -64,7 +64,7 @@ function Header(props) {
         show={modalShow}
         onHide={() => setModalShow(false)}
       /> */}
-
+      <Image src={'/banner.png'} width={1600} height={512}  className='md:w-11/12 md:m-2 md:rounded-3xl mx-auto'/>
     </div>
   );
 }
