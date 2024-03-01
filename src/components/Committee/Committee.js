@@ -71,7 +71,7 @@ const Committee = () => {
         <div className="flex flex-col md:flex-row">
             <div className="md:w-[34%] md:sticky top-[1%] left-0 md:h-screen h-fit bg-gray-100 p-6 rounded-lg">
             <div className="flex items-center justify-between w-4/5 md:w-full cursor-pointer" onClick={()=>{setIsCommitteeOpen(!isCommitteeOpen)}}>
-                <h2 className="text-blue-800 text-lg md:text-2xl">Conference Committee</h2>{isCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
+                <h2 className="text-blue-800 font-semibold text-lg md:text-2xl">Conference Committee</h2>{isCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
             </div>
                 <nav>
                     <ul className="space-y-2 list-none">
@@ -87,7 +87,7 @@ const Committee = () => {
                             </Link>
                         ))}
                         <div className="flex items-center justify-between w-4/5 md:w-full cursor-pointer" onClick={()=>{setIsSubCommitteeOpen(!isSubCommitteeOpen)}}>
-                            <h2 className="text-blue-800 text-lg md:text-2xl mb-2 mt-3" onClick={()=>{setIsSubCommitteeOpen(!isSubCommitteeOpen)}}>Sub Committees</h2>{isSubCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
+                            <h2 className="text-blue-800 font-semibold text-lg md:text-2xl mb-2 mt-3" onClick={()=>{setIsSubCommitteeOpen(!isSubCommitteeOpen)}}>Sub Committees</h2>{isSubCommitteeOpen?<Image src={"up.svg"} width={40} height={40}/>:<Image src={"down.svg"} width={40} height={40} />}
                         </div>
                         {isSubCommitteeOpen && subSec.map((section, ind) => (
                             <Link className='cursor-pointer' to={ind + 5} spy={true} smooth={true} offset={0} duration={200}>
@@ -106,7 +106,7 @@ const Committee = () => {
             <div className="">
                 <div className="w-[100%] top-0">
                     <div className="container" >
-                        <h1 className="mb-3 text-blue-800 text-4xl ">
+                        <h1 className="mb-3 font-extrabold  text-4xl ">
                             <span className=" text-[#000]"></span>
                         </h1>
 
@@ -1179,7 +1179,7 @@ const Committee = () => {
                             </tbody>
                         </Table>
 
-                        <h1 className="text-blue-800 text-2xl mb-4">Sub-Committees</h1>
+                        <h1 className="font-extrabold  text-2xl mb-4">Sub-Committees</h1>
 
                         {/* Registration Committee */}
                         <Table id='5' borderless className="md:mb-5 borderbtm" responsive="md">

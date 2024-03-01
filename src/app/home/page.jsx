@@ -18,13 +18,13 @@ const page = () => {
             <div className="mt-10 flex max-w-max items-center space-x-2 rounded-full border p-2">
               <p className="heading1 text-[1.125rem] font-medium self-center">
                 INTERNATIONAL{" "}
-                <span className=" text-blue-800 "> CONFERENCE ON</span>
+                <span className=" font-extrabold "> CONFERENCE ON</span>
                 <span className="ml-2 cursor-pointer font-bold">&rarr;</span>
               </p>
             </div>
             <h1 className="heading2 text-center  mt-8 max-w-4xl text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-6xl">
               Advanced Computing & <span className=''>Emerging Technologies{" "}</span>
-              <span className="block text-blue-800 mt-1 ">(A.C.E.T)</span>
+              <span className="block font-extrabold mt-1 ">(A.C.E.T)</span>
             </h1>
             <div className="heading3 flex mt-8  text-lg text-gray-700 items-center gap-2 ">
               <img src="calendar.svg" className=" h-[36px] w-[36px]" />
@@ -51,14 +51,14 @@ const page = () => {
           <div className='md:col-span-6'>
             <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
               <div className="">
-                <h1 className="text-blue-800 md:text-2xl text-lg">
+                <h1 className="font-extrabold md:text-2xl text-lg">
                   Date and Venue of the Conference
                 </h1>
                 <hr className='border-2 border-blue-800 mb-2' />
                 <p className=" text-sm md:text-base text-gray-700 ">
                   The conference organized by Department of Computer Science &
                   Engineering, will be held offline at AKGEC, Ghaziabad, Uttar
-                  Pradesh, India on 23-24 August 2024 in collaboration with IEEE
+                  Pradesh, India on 23-24 August, 2024 in collaboration with IEEE
                   Uttar Pradesh Section. The conference will include regular
                   sessions with poster/oral presentations, global and technical
                   sessions, panel discussions and poster presentations organized in
@@ -68,7 +68,7 @@ const page = () => {
             </div>
             <div id="theme" className="mt-5 px-[12px]">
               <div className=" mb-5">
-                <h1 className="text-blue-800 md:text-2xl text-lg"> Conference Theme </h1>
+                <h1 className="font-extrabold md:text-2xl text-lg"> Conference Theme </h1>
                 <hr className='border-2 border-blue-800 mb-2' />
                 <p className="text-sm md:text-base text-gray-700 mb-4 ">
                   The international conference on Advanced Computing and Emerging

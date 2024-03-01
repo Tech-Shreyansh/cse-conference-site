@@ -206,9 +206,9 @@ const Call = () => {
             <div className="px-10 p-6 rounded-lg">
                 {selectedTrackIndex !== null && (
                     <>
-                        <h1 className="text-blue-800 text-4xl mb-3">{trackDetails[selectedTrackIndex].trackName}</h1>
+                        <h1 className="font-extrabold  text-4xl mb-3">{trackDetails[selectedTrackIndex].trackName}</h1>
                         <div>
-                            <h2 className="font-bold text-2xl mb-3">Track {selectedTrackIndex+1} Details:</h2>
+                            <h2 className="text-blue-800 font-semibold text-2xl mb-3">Track {selectedTrackIndex+1} Details:</h2>
                             <ul className="list-disc list-inside">
                                 {trackDetails[selectedTrackIndex].topics.map((topic, index) => (
                                     <li key={index}>{topic}</li>

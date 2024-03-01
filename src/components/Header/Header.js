@@ -24,28 +24,24 @@ function Header(props) {
                 <br className='hidden md:flex' />
                 on
                 <br />
-                ADVANCED COMPUTING & EMERGING TECHNOLOGIES (ACET)
+                ADVANCED COMPUTING & EMERGING TECHNOLOGIES (ACET-2024)
               </strong>
               <br />
             </div>
             <div className='text-center text-[0.65rem] md:text-[1.125rem] leading-[1.3em] pt-1'>
-              <strong className='hidden md:block text-blue-800'>
-                August 23
-                <sup>rd</sup>
-                -24
-                <sup>th</sup>
-                , 2024{" "}
+              <strong className='hidden md:block font-extrabold '>
+                23-24 August, 2024
               </strong>
               <p className='text-center text-blue-500 mb-2 md:mb-4 font-extrabold'>[ HYBRID MODE ]</p>
-              <strong className='text-blue-800 md:text-black'>
+              <strong className='font-extrabold  md:text-black'>
                 Organised by
               </strong>
             </div>
             <div className='text-center text-[0.75rem] leading-[1.2em] md:leading-normal md:text-[1.375rem]'>
               <strong>
-                Department of Computer Science & Engineering
+                <span className='text-[0.6rem] md:text-[1.25rem] font-extrabold'>Department of Computer Science & Engineering</span>
                 <br />
-                Ajay Kumar Garg Engineering College, Ghaziabad
+                Ajay Kumar Garg Engineering College, Ghaziabad, India
               </strong>
               <br />
             </div>
@@ -64,7 +60,7 @@ function Header(props) {
         show={modalShow}
         onHide={() => setModalShow(false)}
       /> */}
-      <Image src={'/banner.png'} width={1600} height={512}  className='md:w-11/12 md:m-2 md:rounded-3xl mx-auto'/>
+      <Image src={'/banner.png'} width={1600} height={512}  className='w-full mx-auto'/>
     </div>
   );
 }

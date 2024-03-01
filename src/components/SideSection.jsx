@@ -7,7 +7,7 @@ const SideSection = () => {
     return (
         <div>
             <div className='my-2'>
-              <h1 className="text-blue-800 md:text-2xl text-lg">
+              <h1 className="font-extrabold md:text-2xl text-lg">
                 Publishing & Indexing
               </h1>
               <hr className='border-2 border-blue-800 mb-2' />
@@ -20,15 +20,15 @@ const SideSection = () => {
               <Image src={logo} className='w-1/2 md:w-4/5 mx-auto' alt="logo" />
             </div>
             <div className='my-2 mb-4'>
-              <h1 className="text-blue-800 md:text-2xl text-lg">
+              <h1 className="font-extrabold md:text-2xl text-lg">
                 Important Dates
               </h1>
               <hr className='border-2 border-blue-800 mb-2' />
               <ul class="text-sm md:text-lg space-y-1">
-                <li><span class="font-bold">Full Paper Submission date</span> : <p>July 15, 2024</p></li>
-                <li><span class="font-bold">Acceptance Notification Last date</span> : <p>July 25, 2024</p></li>
-                <li><span class="font-bold">Registration Last date</span> : <p>August 05, 2024</p></li>
-                <li><span class="font-bold">Conference dates</span> : <p>August 23-24, 2024</p></li>
+                <li><span class="font-bold">Full Paper Submission date</span> : <p>15 July, 2024</p></li>
+                <li><span class="font-bold">Acceptance Notification Last date</span> : <p>25 July, 2024</p></li>
+                <li><span class="font-bold">Registration Last date</span> : <p>05 August, 2024</p></li>
+                <li><span class="font-bold">Conference dates</span> : <p>23-24 August, 2024</p></li>
               </ul>
             </div>
         </div>

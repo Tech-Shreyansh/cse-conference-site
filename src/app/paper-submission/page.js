@@ -13,13 +13,13 @@ const page = () => {
                 <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 md:mt-8 mb-8'>
                     <div className='md:col-span-6'>
                         <div className="lg:mt-3 px-[12px] mt-[50px] ">
-                            <h1 className="text-blue-800 md:text-2xl text-lg">
+                            <h1 className="font-extrabold  md:text-2xl text-lg">
                                 Paper Submission
                             </h1>
                             <hr className='border-2 border-blue-800 mb-2' />
                             <p className="text-sm md:text-base text-gray-700 ">
-                                The 1st International Conference on Advanced Computing & Emerging Technologies (ACET) will be organized by Department of Computer Science & Engineering
-                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24th August, 2024. The aim of the ACET-2024 is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET-2024 invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <span className='font-semibold'>will be updated soon.</span><br /><br />
+                                The 1st International Conference on Advanced Computing & Emerging Technologies (ACET-2024) will be organized by Department of Computer Science & Engineering
+                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24 August, 2024. The aim of the ACET-2024 is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET-2024 invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <span className='font-semibold'>will be updated soon.</span><br /><br />
                                 Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope
                                 If you encounter problems in submitting, contact at <a href='mailto:acet@akgec.ac.in' className='underline underline-1'>acet@akgec.ac.in</a>.
                                 Acceptance of papers will be communicated to authors by email. <br /><br /><strong>Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope. ** Indexing: Scopus</strong>
@@ -27,7 +27,7 @@ const page = () => {
                         </div>
                         <div className="lg:mt-3 px-[12px] mt-[50px] space-y-4">
                             <div>
-                                <h1 className="text-blue-800 md:text-2xl text-lg">
+                                <h1 className="font-extrabold  md:text-2xl text-lg">
                                     Author’s Guidelines
                                 </h1>
                                 <hr className='border-2 border-blue-800 mb-2' />
