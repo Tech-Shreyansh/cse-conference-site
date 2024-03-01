@@ -15,7 +15,7 @@
 }
 
 .navbarcolor{
-    background-color: #1e3a8a !important;
+    background-color: #572C2C !important;
 }
 
 
@@ -37,14 +37,14 @@
 
 @media(min-width: 768px) {
     .active{
-        background: #172554 !important;
+        background: #481515 !important;
     }
     .active:hover{
-        background: #172554 !important;
+        background: #481515 !important;
         color: white !important;
     } 
     .inactive:hover{
-        background: #172554 !important;
+        background: #481515 !important;
     }
 }
 
