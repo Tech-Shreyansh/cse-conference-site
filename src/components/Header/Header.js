@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css'
 import '../../app/globals.css'
 import Navbar from './Navbar'
-import logo from '../../../public/akg.png'
+import logo from '../../../public/combined_logo.jpeg'
 import ieeelogo from '../../../public/ieee.png'
 import Image from 'next/image';
 // import Popup from '../popup/Popup'
