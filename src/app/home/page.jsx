@@ -12,6 +12,7 @@ const page = () => {
   return (
     <>
       <Header active='home' />
+      <Image src={'/banner.png'} width={1600} height={512}  className='w-full mx-auto'/>
       <div className="relative flex flex-col overflow-hidden bg-white ">
         {/* <div className=" lg:pt-[100px] mb-[50px]  mx-auto flex flex-col space-y-4 px-4 text-center lg:flex-row sm:items-center sm:justify-between sm:space-y-0 lg:px-8 ">
           <div className=" mb-[100px]">

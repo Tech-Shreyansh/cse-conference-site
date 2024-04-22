@@ -60,7 +60,6 @@ function Header(props) {
         show={modalShow}
         onHide={() => setModalShow(false)}
       /> */}
-      <Image src={'/banner.png'} width={1600} height={512}  className='w-full mx-auto'/>
     </div>
   );
 }
