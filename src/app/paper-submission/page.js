@@ -38,7 +38,7 @@ const page = () => {
                             </ul>
                             <p className='font-extrabold'>Manuscript Preparation</p>
                             <ul className="text-sm md:text-base text-gray-700 list-disc ml-4 space-y-1 text-justify">
-                                <li>The manuscript should be prepared in <a className='font-semibold' target='_blank' href='https://www.ieee.org/conferences/publishing/templates.html'>IEEE format</a> using MS WORD and/or LaTeX template</li>
+                                <li>The manuscript should be prepared in <a className='font-semibold text-blue-500' target='_blank' href='https://www.ieee.org/conferences/publishing/templates.html'>IEEE format</a> using MS WORD and/or LaTeX template</li>
                                 <li>The figures / graphs / plots in the manuscript MUST be of good resolution (600 dpi or more), tables MUST NOT be in pictorial format. Text in figures should not be too small, and preferably of equal size as text of the article.</li>
                                 <li>Figures, text, or the tables MUST be visible within the boundary of the text area of the page and MUST NOT go beyond it.</li>
                                 <li>Do NOT use any Social / Academic titles (e.g. Mr.,Ms.,Dr.,Prof. etc) preceding the author names. Do NOT mention the position of a person (e.g., research scholar, student, assistant professor, professor, IEEE member, IEEE student member etc.) in the affiliation.</li>
