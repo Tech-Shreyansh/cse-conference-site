@@ -11,7 +11,7 @@ const SideSection = () => {
                 Publishing & Indexing
               </h1>
               <hr className='border-2 border-blue-800 mb-2' />
-              <p>Accepted and presented papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements.</p>
+              <p>Accepted and presented papers will be submitted for inclusion into IEEE Xplore digital library subject to meeting IEEE Xplore’s scope and quality requirements.</p>
               <Image src={ieeelogo} className='w-1/2 mx-auto' alt="IEEE_logo" />
             </div>
             <hr />

@@ -32,7 +32,17 @@ function Header(props) {
               <strong className='hidden md:block font-extrabold '>
                 23-24 August, 2024
               </strong>
-              <p className='text-center text-blue-500 mb-2 md:mb-4 font-extrabold'>[ HYBRID MODE ]</p>
+              <div className='mb-2 md:mb-4'>
+                <strong className='text-blue-500'>CONFERENCE MODE : HYBRID MODE</strong>
+                <br />
+                <a target='_blank' href='https://conferences.ieee.org/conferences_events/conferences/conferencedetails/61898'>
+                  <u className='text-center text-blue-500 font-extrabold'>
+                    <b className='font-extrabold mb-2 md:mb-4'>
+                      IEEE Conference Record Number : 61898
+                    </b>
+                  </u>
+                </a>
+              </div>
               <strong className='font-extrabold  md:text-black'>
                 Organised by
               </strong>
