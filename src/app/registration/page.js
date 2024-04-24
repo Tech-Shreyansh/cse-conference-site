@@ -12,52 +12,59 @@ const page = () => {
             <div id="call" className="target mb-5 foothandle">
                 <div className="container" >
                     <h1 className="font-extrabold  text-4xl mb-4">Registration Fees</h1>
-                    <b className="sm:text-lg text-md mt-16">Will be updated soon.</b>
-                    {/* <Table className="borderbtm">
-                        <tbody>
-                            <tr>
-                                <th className="border border-black">S/N</th>
-                                <th className="border border-black">Category</th>
-                                <th className="border border-black">Amount</th>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">1</td>
-                                <td className="border border-black">Non-IEEE Professional</td>
-                                <td className="border border-black">INR 5000</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">2</td>
-                                <td className="border border-black">IEEE Professional Members</td>
-                                <td className="border border-black">INR 4000</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">3</td>
-                                <td className="border border-black">Non-IEEE Students</td>
-                                <td className="border border-black">INR 4000</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">4</td>
-                                <td className="border border-black">IEEE Student Members</td>
-                                <td className="border border-black">INR 3000</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">5</td>
-                                <td className="border border-black">Industry Participants</td>
-                                <td className="border border-black">INR 6000</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">6</td>
-                                <td className="border border-black">Non-IEEE Foreign Participants</td>
-                                <td className="border border-black">$ 200</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black">7</td>
-                                <td className="border border-black">IEEE Foreign Participants</td>
-                                <td className="border border-black">$ 150</td>
-                            </tr>
-                        </tbody>
+                    <Table cellPadding={10}>
+                        <tr className="bg-blue-400">
+                            <th className="border border-black text-center">Indian Authors(INR)</th>
+                            <th className="border border-black text-center">IEEE Members(INR)</th>
+                            <th className="border border-black text-center">Non IEEE Members(INR)</th>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Corporate Sectors/Others</td>
+                            <td className="border border-black text-right">7000</td>
+                            <td className="border border-black text-right">8000</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Academics/Research Scholars</td>
+                            <td className="border border-black text-right">6000</td>
+                            <td className="border border-black text-right">7000</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">UG/PG Scholars</td>
+                            <td className="border border-black text-right">4000</td>
+                            <td className="border border-black text-right">5000</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Co-Author/Attendee</td>
+                            <td className="border border-black text-right">500</td>
+                            <td className="border border-black text-right">1000</td>
+                        </tr>
+                        <tr className="bg-blue-400">
+                            <th className="border border-black text-center">Foreign Authors(USD)</th>
+                            <th className="border border-black text-center">IEEE Members(USD)</th>
+                            <th className="border border-black text-center">Non IEEE Members(USD)</th>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Corporate Sectors/Others</td>
+                            <td className="border border-black text-right">250</td>
+                            <td className="border border-black text-right">350</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Academics/Research Scholars</td>
+                            <td className="border border-black text-right">200</td>
+                            <td className="border border-black text-right">300</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">UG/PG Scholars</td>
+                            <td className="border border-black text-right">100</td>
+                            <td className="border border-black text-right">150</td>
+                        </tr>
+                        <tr>
+                            <td className="border border-black">Co-Author/Attendee</td>
+                            <td className="border border-black text-right">75</td>
+                            <td className="border border-black text-right">100</td>
+                        </tr>
+                    </Table>
 
-                    </Table> */}
                 </div>
             </div>
             <div className="absolute left-0 right-0">

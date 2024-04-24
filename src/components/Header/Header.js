@@ -33,7 +33,7 @@ function Header(props) {
                 23-24 August, 2024
               </strong>
               <div className='mb-2 md:mb-4'>
-                <strong className='text-blue-500'>CONFERENCE MODE : HYBRID MODE</strong>
+                <strong className='text-blue-500'>CONFERENCE MODE : HYBRID</strong>
                 <br />
                 <a target='_blank' href='https://conferences.ieee.org/conferences_events/conferences/conferencedetails/61898'>
                   <u className='text-center text-blue-500 font-extrabold'>
