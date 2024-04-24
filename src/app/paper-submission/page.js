@@ -19,10 +19,10 @@ const page = () => {
                             <hr className='border-2 border-blue-800 mb-2' />
                             <p className="text-sm md:text-base text-gray-700 ">
                                 The 1st International Conference on Advanced Computing & Emerging Technologies (ACET-2024) will be organized by Department of Computer Science & Engineering
-                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24 August, 2024. The aim of the ACET-2024 is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET-2024 invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <span className='font-semibold'>will be updated soon.</span><br /><br />
+                                Ajay Kumar Garg Engineering College, Ghaziabad, India from 23-24 August, 2024. The aim of the ACET-2024 is to serve researchers, developers, educators working in the area of Disruptive Technology and their applications to present as well as to exchange the research ideas. ACET-2024 invites authors to submit their original and unpublished work that demonstrates current research in all areas of Advanced Computing & Emerging Technologies and their applications through Microsoft's Conference Management Toolkit and submission link <a target='_blank' className='font-semibold text-blue-500' href='https://cmt3.research.microsoft.com/ACET2024/Submission/Index'> (Click here) </a><br /><br />
                                 Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope
                                 If you encounter problems in submitting, contact at <a href='mailto:acet@akgec.ac.in' className='underline underline-1'>acet@akgec.ac.in</a>.
-                                Acceptance of papers will be communicated to authors by email. <br /><br /><strong>Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope. ** Indexing: Scopus</strong>
+                                Acceptance of papers will be communicated to authors by email. <br /><br /><strong>Publication - All the accepted and presented papers of ACET-2024 will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope.</strong>
                             </p>
                         </div>
                         <div className="lg:mt-3 px-[12px] mt-[50px] space-y-4">
@@ -38,7 +38,7 @@ const page = () => {
                             </ul>
                             <p className='font-extrabold'>Manuscript Preparation</p>
                             <ul className="text-sm md:text-base text-gray-700 list-disc ml-4 space-y-1 text-justify">
-                                <li>The manuscript should be prepared in IEEE format using MS WORD and/or LaTeX template</li>
+                                <li>The manuscript should be prepared in <a className='font-semibold' target='_blank' href='https://www.ieee.org/conferences/publishing/templates.html'>IEEE format</a> using MS WORD and/or LaTeX template</li>
                                 <li>The figures / graphs / plots in the manuscript MUST be of good resolution (600 dpi or more), tables MUST NOT be in pictorial format. Text in figures should not be too small, and preferably of equal size as text of the article.</li>
                                 <li>Figures, text, or the tables MUST be visible within the boundary of the text area of the page and MUST NOT go beyond it.</li>
                                 <li>Do NOT use any Social / Academic titles (e.g. Mr.,Ms.,Dr.,Prof. etc) preceding the author names. Do NOT mention the position of a person (e.g., research scholar, student, assistant professor, professor, IEEE member, IEEE student member etc.) in the affiliation.</li>

@@ -24,10 +24,10 @@ const SideSection = () => {
                 Important Dates
               </h1>
               <hr className='border-2 border-blue-800 mb-2' />
-              <ul class="text-sm md:text-lg space-y-1">
-                <li><span class="font-bold">Full Paper Submission date</span> : <p>15 July, 2024</p></li>
-                <li><span class="font-bold">Acceptance Notification Last date</span> : <p>25 July, 2024</p></li>
-                <li><span class="font-bold">Registration Last date</span> : <p>05 August, 2024</p></li>
+              <ul class="text-sm md:text-lg space-y-1 ml-0">
+                <li><span class="font-bold">Full Paper Submission date</span> : <p>31 May, 2024</p></li>
+                <li><span class="font-bold">Acceptance Notification date</span> : <p>30 June, 2024</p></li>
+                <li><span class="font-bold">Registration date</span> : <p>10 July, 2024</p></li>
                 <li><span class="font-bold">Conference dates</span> : <p>23-24 August, 2024</p></li>
               </ul>
             </div>
