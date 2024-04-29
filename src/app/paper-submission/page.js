@@ -53,6 +53,7 @@ const page = () => {
                                 <li>Papers found to be plagiarized during any stage of review shall be rejected.</li>
                                 <li>As per the copyright transfer agreement, Authors are deemed to be individually and collectively responsible for the content of manuscripts published by them.</li>
                                 <li>Hence, it is the responsibility of each author to strive for the highest ethical standards with respect to plagiarism.</li>
+                                <li>To ensure the integrity and originality of the research published in IEEE, we require authors to minimize the plagiarism to below 15%.</li>
                             </ul>
                         </div>
                     </div>
