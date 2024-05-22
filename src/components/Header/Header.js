@@ -18,13 +18,13 @@ function Header(props) {
           <div className='flex flex-col'>
             <div className='text-center text-[0.75rem] md:text-[1.375rem] md:leading-[1em] leading-[1.2em]'>
               <strong>
-                1
+                2024 1
                 <sup>ST</sup>
                 INTERNATIONAL CONFERENCE{" "}
                 <br className='hidden md:flex' />
                 on
                 <br />
-                ADVANCED COMPUTING & EMERGING TECHNOLOGIES (ACET-2024)
+                ADVANCED COMPUTING & EMERGING TECHNOLOGIES (ACET)
               </strong>
               <br />
             </div>
