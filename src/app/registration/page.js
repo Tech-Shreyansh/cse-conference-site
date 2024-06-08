@@ -24,12 +24,12 @@ const page = () => {
                             <td className="border border-black text-right">8000</td>
                         </tr>
                         <tr>
-                            <td className="border border-black">Academics/Research Scholars</td>
+                            <td className="border border-black">Academics</td>
                             <td className="border border-black text-right">6000</td>
                             <td className="border border-black text-right">7000</td>
                         </tr>
                         <tr>
-                            <td className="border border-black">UG/PG Scholars</td>
+                            <td className="border border-black">UG/PG Scholars/Research Scholars</td>
                             <td className="border border-black text-right">4000</td>
                             <td className="border border-black text-right">5000</td>
                         </tr>
@@ -49,12 +49,12 @@ const page = () => {
                             <td className="border border-black text-right">350</td>
                         </tr>
                         <tr>
-                            <td className="border border-black">Academics/Research Scholars</td>
+                            <td className="border border-black">Academics</td>
                             <td className="border border-black text-right">200</td>
                             <td className="border border-black text-right">300</td>
                         </tr>
                         <tr>
-                            <td className="border border-black">UG/PG Scholars</td>
+                            <td className="border border-black">UG/PG Scholars/Research Scholars</td>
                             <td className="border border-black text-right">100</td>
                             <td className="border border-black text-right">150</td>
                         </tr>
