@@ -48,8 +48,8 @@ const page = () => {
             </div>
           </div>
         </div> */}
-        <div className='px-9 md:px-10  md:mb-3 mb-2 md:mt-7 mt-[20px]'>
-        <Link href="/schedule.xlsx" className=' sm:text-[1rem] text-[0.86rem] underline font-bold' locale={false}> Click here to download Presentation Schedule</Link>
+        <div className='px-9 md:px-10 text-center text-blue-500 md:mb-3 mb-2 md:mt-7 mt-[20px]'>
+        <Link href="/schedule.xlsx" className='underline font-bold' locale={false}><h1 className='md:text-2xl text-lg'>Click here to download Presentation Schedule</h1></Link>
        
         </div>
         <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 '>
