@@ -7,7 +7,7 @@ import ieeelogo from '../../../public/ieee.png'
 import logo from '../../../public/akg.png'
 import Image from 'next/image.js';
 import SideSection from '../../components/SideSection.jsx';
-
+import Link from 'next/link';
 const page = () => {
   return (
     <>
@@ -48,9 +48,13 @@ const page = () => {
             </div>
           </div>
         </div> */}
-        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 md:mt-8'>
+        <div className='px-9 md:px-10  md:mb-3 mb-2 md:mt-7 mt-[20px]'>
+        <Link href="/schedule.xlsx" className=' sm:text-[1rem] text-[0.86rem] underline font-bold' locale={false}> Click here to download Presentation Schedule</Link>
+       
+        </div>
+        <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 '>
           <div className='md:col-span-6'>
-            <div id="date" className="lg:mt-3 px-[12px] mt-[50px] ">
+            <div id="date" className="lg:mt-3 px-[12px] mt-[20px] ">
               <div className="">
                 <h1 className="font-extrabold md:text-2xl text-lg">
                   Date and Venue of the Conference
