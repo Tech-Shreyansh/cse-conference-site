@@ -48,7 +48,7 @@ const page = () => {
             </div>
           </div>
         </div> */}
-        <div className='px-9 md:px-10 text-center text-blue-500 md:mb-3 mb-2 md:mt-7 mt-[20px]'>
+        <div className='blink px-9 md:px-10 text-center text-[#00c0ff] md:mb-3 mb-2 md:mt-7 mt-[20px]'>
         <Link href="/schedule.pdf" className='underline font-bold' locale={false}><h1 className='md:text-2xl text-lg'>Click here to download Presentation Schedule</h1></Link>
        
         </div>
