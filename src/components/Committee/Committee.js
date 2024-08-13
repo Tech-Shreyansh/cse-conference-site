@@ -713,6 +713,16 @@ const Committee = () => {
                                     <td className="nametd">Prof. Zhongfei (Mark) Zhang</td>
                                     <td className="afftd">Binghamton University, USA</td>
                                 </tr>
+                                <tr>
+                                <td className="snowidth text-center">47</td>
+                                <td className="nametd">Dr. Aanjey Mani Tripathi</td>
+                                <td className="afftd">Galgotias University, Greater Noida,India</td>
+                                </tr>
+                                <tr>
+                                <td className="snowidth text-center">48</td>
+                                <td className="nametd">Dr. Shanh Sharma</td>
+                                <td className="afftd">ABES Engineering College, Ghaziabad, India</td>
+                                </tr>
 
                             </tbody>
                         </Table>

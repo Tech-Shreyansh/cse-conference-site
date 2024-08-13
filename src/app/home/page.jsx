@@ -49,8 +49,10 @@ const page = () => {
           </div>
         </div> */}
         <div className='blink px-9 md:px-10 text-center text-[#00c0ff] md:mb-3 mb-2 md:mt-7 mt-[20px]'>
-        <Link href="/schedule.pdf" className='underline font-bold' locale={false}><h1 className='md:text-2xl text-lg'>Click here to download Presentation Schedule</h1></Link>
-       
+        <Link href="/schedule.pdf" className='underline font-bold' locale={false}><marquee><h1 className='md:text-2xl text-lg'>Click here to download Presentation Schedule</h1></marquee></Link>
+        </div>
+        <div className='blink px-9 md:px-10 text-center text-[#481515] md:mb-5 mb-3 md:mt-3 mt-[12px]'>
+        <Link href="/list of speakers.pdf" className='underline font-bold' locale={false}><h1 className='md:text-2xl text-lg'>List of Speakers</h1></Link>
         </div>
         <div className='grid md:grid-cols-10 md:gap-8 px-4 md:px-8 mb-8 '>
           <div className='md:col-span-6'>
