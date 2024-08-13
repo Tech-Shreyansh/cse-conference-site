@@ -28,14 +28,11 @@ const Committee = () => {
             title: "Registration Committee",
         },
         {
-            title: "Publication Committee",
-        },
-        {
-            title: "Cultural Committee",
-
+            title: "Inaugural and Lamp Lighting",
         },
         {
             title: "Transportation, Accommodation & Hospitality Committee",
+
         },
         {
             title: "Reception, Decoration & Stage Management Committee",
@@ -51,11 +48,15 @@ const Committee = () => {
 
         },
         {
-            title: "Advertising, Publicity & Sponsorship Committee",
+            title: "Press Publicity & Media Management Committee",
+        },
+        {
+            title: "Videography & Photography Committee"
         },
         {
             title: "Website Management Committee",
         },
+      
 
     ];
 
@@ -1191,488 +1192,561 @@ const Committee = () => {
 
                         <h1 className="font-extrabold  text-2xl mb-4">Sub-Committees</h1>
 
-                        {/* Registration Committee */}
                         <Table id='5' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Registration Committee</th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Ms. Juli Yadav</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Ms. Shiva Tyagi</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Ms. Ritu Sharma</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Atul Kumar Singh</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Mr. Samender Singh</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                            </tbody>
-                        </Table>
+    <tbody>
+        <tr>
+            <th colSpan="3">Registration Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Surendra Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Rachna Singh</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Niharika Tripathi</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Amit Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Ms. Vaishali Deswal</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Ms. Mahima Saxena</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">7</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Publication Committee */}
-                        <Table id='6' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Publication Committee</th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Dr. Anu Chaudhary</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Dr. Rajesh Prasad</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Dr. Sonam Gupta</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Dr. Ayushi Prakash</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                            </tbody>
-                        </Table>
+<Table id='6' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Inaugural and Lamp Lighting</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Gunjan Saxena</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Dhanshree Parihar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Bhumica</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Mayank Trivedi</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Ms. Swati Tomar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Cultural Committee */}
-                        <Table id='7' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Cultural Committee</th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Mr. Ashish Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Ms. Gunjan Saxena</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Ms. Neeti Pahuja</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Ms. Swati Tomar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Ms. Bhumica</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Mr. Mayank Trivedi</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">7</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='7' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Transportation, Accommodation & Hospitality Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Vishal Jayaswal</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Ashish Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Manish Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Hemant Pathak</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='8' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Reception, Decoration & Stage Management Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Kamna Singh</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Ankita Rani</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Swati Tomar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Ms. Harnit Saini</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Mr. Manoj Kumar-II</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Ms. Veenu Kathpalia</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">7</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Transportation, Accommodation & Hospitality Committee  */}
-                        <Table id='8' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Transportation, Accommodation & Hospitality Committee </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Mr. Vishal Jayaswal</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Mr. Anuj Panwar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Mr. Vishal Choudhary</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Ashish Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Mr. Hemant Pathak</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='9' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Technical Sessions Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Dr. Santosh Kumar Upadhyay</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Dr. Akhilesh Verma</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Dr. Anuradha Taluja</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Dr. Jaishree Jain</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Dr. Rakesh Kr. Yadav</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Dr. Nishant Pathak</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">7</td>
+            <td className="nametd">Dr. Pawan</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">8</td>
+            <td className="nametd">Dr. Saroj Kushwaha</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">9</td>
+            <td className="nametd">Dr. Ashish Dixit</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">10</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='10' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Finance & Audit Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Dr. Avdhesh Gupta</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Amrita Bhatnagar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Joohi Khanna</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Vishal Goel</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Reception, Decoration & Stage Management Committee   */}
-                        <Table id='9' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Reception, Decoration & Stage Management Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Ms. Kamna Singh</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Ms. Ankita Rani</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Ms. Swati Tomar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Ms. Hina Singh</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Ms. Harnit Saini</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Mr. Manoj Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">7</td>
-                                    <td className="nametd">Mr. Sharmaji</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">8</td>
-                                    <td className="nametd">Mr. Surendra Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">9</td>
-                                    <td className="nametd">Ms. Veenu Kathpalia</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-
-                                <tr>
-                                    <td className="snowidth text-center">10</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                            </tbody>
-                        </Table>
-
-                        {/* Technical Sessions Committee */}
-                        <Table id='10' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Technical Sessions Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Dr. Shashank Sahu</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Dr. Avdhesh Gupta</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Dr. Ayushi Prakash</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Dr. Sonam Gupta</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Dr. Santosh Kumar Upadhyay</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Dr. Akhilesh Verma</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">7</td>
-                                    <td className="nametd">Dr. Anuradha Taluja</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">8</td>
-                                    <td className="nametd">Dr. Jaishree Jain</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">9</td>
-                                    <td className="nametd">Dr. Rakesh Kr. Yadav</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">10</td>
-                                    <td className="nametd">Dr. Nishant Pathak</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">11</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-
-                            </tbody>
-                        </Table>
-
-                        {/* Finance & Audit Committee */}
-                        <Table id='11' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Finance & Audit Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Dr. Avdhesh Gupta</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Mr. Manish Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Ms. Joohi Khanna</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Vishal Goel</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-
-                            </tbody>
-                        </Table>
 
                         {/* Food Committee */}
-                        <Table id='12' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Food Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Mr. B.N Pandey</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Mr. Arvind Gautam</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Mr. Sandeep Yadav</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Anuj Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Mr. Manish Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Mr. Ravi Dutt</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+                        <Table id='11' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Food Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Pradeep Gupta</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. B.N Pandey</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Sandeep Yadav</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Anuj Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Mr. Samendra Singh</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Mr. Sunil Kumar Jha</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='12' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Press Publicity & Media Management Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Dr. Nishant Pathak</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Neerja Arora</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Amrita Tiwari</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Pushkal Kr. Shukla</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Mr. Yogendra Narayan</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">6</td>
+            <td className="nametd">Mr. Manoj Srivastava</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">7</td>
+            <td className="nametd">Ms. Juli Yadav</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">8</td>
+            <td className="nametd">Mr. Updesh Jaiswal</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">9</td>
+            <td className="nametd">Mr. Shiv Shankar Srivastava</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Advertising, Publicity & Sponsorship Committee */}
-                        <Table id='13' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2">Advertising, Publicity & Sponsorship Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Dr. Ayushi Prakash</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Ms. Rekha Baghel</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Mr. Amit Goel</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Shravan Kumar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='13' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Videography & Photography Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Neerja Arora</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Pronab Kr. Adhikari</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Yogendra Narayan</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Shiv Shankar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='14' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Website Management Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Amrita Bhatnagar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Sachin Jain</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Ms. Rekha Baghel</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Vikas</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Students Volunteers</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Press Publicity & Media Management Committee */}
-                        <Table borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2"> Press Publicity & Media Management Committee </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Ms. Neerja Arora</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Ms. Amrita Tiwari</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Mr. Mradul Kr. Jain</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Pushkal Kr. Shukla</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Mr. Ashish Dixit</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Mr. Yogendra Narayan</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='16' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Seating Arrangements Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Manish Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Sharma Ji</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Amit Goyal</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Ms. Ritika Dhyani</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='17' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Display and Notice Board</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Arvind Gautam</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Sharvan Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Bhupesh Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Videography & Photography Committee  */}
-                        <Table borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2"> Videography & Photography Committee  </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Mr. B.N.Pandey</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Mr. Pronab Kr. Adhikari</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='18' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Certificate Distribution Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Rekha Baghel</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Vikas</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Amit Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Ms. Vaishali Deswal</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='19' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Discipline Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Mayank Trivedi</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Vikas</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Mr. Sandeep Yadav</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">4</td>
+            <td className="nametd">Mr. Samendra Singh</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">5</td>
+            <td className="nametd">Ms. Harnit Saini</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                        {/* Website Management Committee */}
-                        <Table id='14' borderless className="md:mb-5 borderbtm" responsive="md">
-                            <tbody>
-                                <tr>
-                                    <th colSpan="2"> Website Management Committee </th>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">1</td>
-                                    <td className="nametd">Mr. Pradeep Gupta</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">2</td>
-                                    <td className="nametd">Mr. Sandeep Yadav</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">3</td>
-                                    <td className="nametd">Ms. Amrita Bhatnagar</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">4</td>
-                                    <td className="nametd">Mr. Sachin Jain</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">5</td>
-                                    <td className="nametd">Ms. Rekha Baghel</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">6</td>
-                                    <td className="nametd">Mr. Vikas</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
-                                <tr>
-                                    <td className="snowidth text-center">7</td>
-                                    <td className="nametd">Students Volunteers</td>
-                                    <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
-                                </tr>
+<Table id='20' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Anchoring Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Ms. Neeti Pahuja</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Ms. Rupa Rani</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
 
-                            </tbody>
-                        </Table>
+<Table id='21' borderless className="md:mb-5 borderbtm" responsive="md">
+    <tbody>
+        <tr>
+            <th colSpan="3">Purchase Committee</th>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">1</td>
+            <td className="nametd">Mr. Pradeep Gupta</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">2</td>
+            <td className="nametd">Mr. Anuj Kumar</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+        <tr>
+            <td className="snowidth text-center">3</td>
+            <td className="nametd">Admin Department</td>
+            <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
+        </tr>
+    </tbody>
+</Table>
+
                         {/* <Table borderless className="md:mb-5 borderbtm">
                         <tbody>
                             <tr>
