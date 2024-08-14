@@ -1209,7 +1209,7 @@ const Committee = () => {
         </tr>
         <tr>
             <td className="snowidth text-center">3</td>
-            <td className="nametd">Ms. Niharika Tripathi</td>
+            <td className="nametd">Ms. Neeharika Tripathi</td>
             <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
         </tr>
         <tr>
@@ -1219,7 +1219,7 @@ const Committee = () => {
         </tr>
         <tr>
             <td className="snowidth text-center">5</td>
-            <td className="nametd">Ms. Vaishali Deswal</td>
+            <td className="nametd">Ms. Vaishali Deshwal</td>
             <td className="afftd">Ajay Kumar Garg Engineering College, Ghaziabad, India</td>
         </tr>
         <tr>
