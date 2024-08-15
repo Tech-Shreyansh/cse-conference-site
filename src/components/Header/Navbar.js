@@ -23,7 +23,7 @@ function Navigationbar(props) {
             <Link href='/paper-submission' className={props.active==='paper-submission'?'p-3 active activeLink d-flex align-items-center':'p-3 inactiveLink inactive d-flex align-items-center'}>Paper Submission</Link>
             <Link href='/registration' className={props.active === 'registration' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Registration</Link>
             <Link href='/accomodation' className={props.active === 'accomodation' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Accomodation</Link>
-            <Link href='/travel-grant' className={props.active === 'guest-speakers' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Guest Speakers</Link>
+            <Link href='/guest-speakers' className={props.active === 'guest-speakers' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Guest Speakers</Link>
             <Link href='/contact-us' className={props.active === 'contact-us' ? 'p-3 active activeLink d-flex align-items-center' : 'p-3 inactiveLink inactive d-flex align-items-center'}>Contact Us</Link>
           </Nav>
         </Navbar.Collapse>

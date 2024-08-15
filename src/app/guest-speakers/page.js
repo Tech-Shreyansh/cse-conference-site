@@ -134,7 +134,6 @@ const page = () => {
                                 <li
                                     key={index}
                                     className={`text-sm md:text-base cursor-pointer my-1 px-2 py-2 rounded-md transition duration-300 hover:bg-blue-200 ease-in-out`}
-                                    onClick={() => handleSectionSelection(index)}
                                 >
                                     {section.title}
                                 </li>
