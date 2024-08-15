@@ -64,7 +64,7 @@ const page = () => {
         </div>
         <div>
         <div className='blink px-9 md:px-10 text-center text-[#481515] md:mb-5 mb-3 md:mt-3 mt-[12px]'>
-        <h1 onClick={handleOpen} className='underline font-bold md:text-2xl text-lg cursor-pointer'>Click to view Guest Speakers</h1>
+        <Link href={'/guest-speakers'}><h1 className='underline font-bold md:text-2xl text-lg cursor-pointer'>Click to view Guest Speakers</h1></Link>
         </div>
         <Modal size='xl' show={open} onHide={handleClose}>
         <Modal.Body>
