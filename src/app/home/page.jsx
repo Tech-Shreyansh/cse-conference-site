@@ -57,7 +57,7 @@ const page = () => {
           </div>
         </div> */}
         <div className='px-9 md:px-10 text-center text-[#00c0ff] md:mb-3 mb-2 md:mt-7 mt-[20px]'>
-        <Link href="/schedule.pdf" className='font-bold' locale={false}><marquee className='w-1/2 mx-auto'><h1 className='md:text-2xl text-lg underline'>Click here to download Presentation Schedule</h1></marquee></Link>
+        <Link href="/schedule.pdf" className='font-bold' locale={false}><marquee className='w-1/2 mx-auto'><h1 className='md:text-2xl text-lg underline'>Click here to download Presentation Schedule With paper IDS and Zoom Link</h1></marquee></Link>
         </div>
         <div className='px-9 md:px-10 text-center text-blue-500 md:mb-3 mb-2 md:mt-3 mt-[12px]'>
         <Link href="/programSchedule.pdf" className='font-bold' locale={false}><marquee className='w-1/2 mx-auto'><h1 className='md:text-2xl text-lg underline'>Click here to download Program Schedule</h1></marquee></Link>
